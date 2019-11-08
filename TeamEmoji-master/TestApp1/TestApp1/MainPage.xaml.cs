@@ -25,7 +25,7 @@ namespace TestApp1
 
                 if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
                 {
-                    await DisplayAlert("No Camera", ":( No camera avaialble.", "OK");
+                    await DisplayAlert("No Camera", ":( No camera avaialble. Sorry", "OK");
                     return;
                 }
                 try

@@ -15,7 +15,6 @@ namespace TestApp1
         public ResultsPage()
         {
             InitializeComponent();
-            BindingContext = new ResultsViewModel();
 
 
         }
