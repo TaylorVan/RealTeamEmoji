@@ -12,7 +12,7 @@
     <provider android:name="android.support.v4.content.FileProvider" android:authorities="com.companyname.testapp1.fileprovider" android:exported="false" android:grantUriPermissions="true">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
     </provider>
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="TestApp1" android:theme="@style/MainTheme" android:name="md5c1042bf69149c94f7daac644070e7c0a.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="Ev3 Identifier" android:theme="@style/MainTheme" android:name="md5c1042bf69149c94f7daac644070e7c0a.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

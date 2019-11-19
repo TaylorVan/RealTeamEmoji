@@ -28,6 +28,10 @@ C:\Users\Taylor\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\ref\
 C:\Users\Taylor\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.pdb
 C:\Users\Taylor\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.csprojAssemblyReference.cache
 C:\Users\Taylor\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\ResultsPage.xaml.g.cs
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1\bin\Debug\netstandard2.0\TestApp1.deps.json
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1\bin\Debug\netstandard2.0\TestApp1.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1\bin\Debug\netstandard2.0\ref\TestApp1.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1\bin\Debug\netstandard2.0\TestApp1.pdb
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.csprojAssemblyReference.cache
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\MainMenu.xaml.g.cs
@@ -39,8 +43,4 @@ C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.dll
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\ref\TestApp1.dll
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.pdb
-C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1\bin\Debug\netstandard2.0\TestApp1.deps.json
-C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1\bin\Debug\netstandard2.0\TestApp1.dll
-C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1\bin\Debug\netstandard2.0\ref\TestApp1.dll
-C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1\bin\Debug\netstandard2.0\TestApp1.pdb
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\XamlC.stamp

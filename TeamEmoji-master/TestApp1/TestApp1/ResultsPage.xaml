@@ -5,9 +5,16 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TestApp1.ResultsPage">
-    <StackLayout Spacing="0" BackgroundColor="#ffc15e">
-        <Label Text="Your photo you have identified:"/>
-        <Image x:Name="imageToIdentify"  Margin="10" HorizontalOptions="FillAndExpand"/>
-        <BoxView Color="#ffc15e" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
-    </StackLayout>
+    <ScrollView BackgroundColor="#ffc15e">
+        <StackLayout Spacing="0" Margin="10" BackgroundColor="#ffc15e">
+            <Label Text="Part Idenified:"/>
+            <Image x:Name="imageToIdentify"  Margin="10" HorizontalOptions="FillAndExpand"/>
+            <StackLayout BackgroundColor="White" Margin="10" Spacing="10">
+                <Label Margin="10" Text="Placeholder" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" x:Name="displayName" />
+                <Label Margin="10" Text="Placeholder" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" x:Name="displayPartId" />
+                <Label Margin="10" Text="Placeholder" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" x:Name ="displayLink" />
+            </StackLayout>
+          <BoxView Color="#ffc15e" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
