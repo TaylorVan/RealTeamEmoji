@@ -13,7 +13,7 @@ using Android.Content.Res;
 
 namespace TestApp1.Droid
 {
-    [Activity(Label = "Ev3 Identifier", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "EV3 Identifier", Icon = "@drawable/Logo", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override async void OnCreate(Bundle savedInstanceState)
@@ -30,6 +30,9 @@ namespace TestApp1.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             AndroidImageClassifier.Init("model.pb", "labels.txt");
             AssetManager assets = Assets;
+
+            //Creates database file if it doesn't exist in app storage
+            CreateConnection.Open();
             LoadApplication(new App());
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

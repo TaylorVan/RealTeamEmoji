@@ -13,7 +13,7 @@ namespace TestApp1.ViewModels
         public string PartID { get; set; } = string.Empty;
         public string storeLink { get; set; } = string.Empty;
 
-        public Part PartGuessed { get; set; }
+        public Piece PieceGuessed { get; set; }
 
 
     }

@@ -19,6 +19,7 @@ namespace TestApp1
     {
         public MainPage()
         {
+            /*
             List<Part> parts = new List<Part>
             {
                 new Part("2736", 71, 6, 6),
@@ -166,7 +167,7 @@ namespace TestApp1
                 new Part("3648b", 72, 4, 21),
                 new Part("95646c01", 15, 1, 11),
                 new Part("98568p02", 4, 6, 7)
-            };
+            };*/
 
             InitializeComponent();
 
@@ -195,8 +196,10 @@ namespace TestApp1
 
                     var tags = await CrossImageClassifier.Current.ClassifyImage(file.GetStream());
                     var partId = tags.OrderByDescending(t => t.Probability).First().Tag;
-                    Part p = parts.Find(t => t.partId == partId);
-                    App.ResultsViewModel.PartGuessed = p;
+                    var db = App.PieceDatabase.GetAllPieces();
+                    Piece p = db.Result.Find(t => t.PartNum == partId);
+                    //Part p = parts.Find(t => t.partId == partId);
+                    App.ResultsViewModel.PieceGuessed = p;
 
                     image.Source = ImageSource.FromStream(() =>
                     {
@@ -231,8 +234,10 @@ namespace TestApp1
 
                     var tags = await CrossImageClassifier.Current.ClassifyImage(file.GetStream());
                     var partId = tags.OrderByDescending(t => t.Probability).First().Tag;
-                    Part p = parts.Find(t => t.partId == partId);
-                    App.ResultsViewModel.PartGuessed = p;
+                    var db = App.PieceDatabase.GetAllPieces();
+                    Piece p = db.Result.Find(t => t.PartNum == partId);
+                    //Part p = parts.Find(t => t.partId == partId);
+                    App.ResultsViewModel.PieceGuessed = p;
 
                     /*
                     getPartInfo(p);

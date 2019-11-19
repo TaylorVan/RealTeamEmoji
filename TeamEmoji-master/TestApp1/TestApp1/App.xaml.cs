@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using TestApp1.ViewModels;
+using System.IO;
 
 namespace TestApp1
 {
@@ -9,6 +10,29 @@ namespace TestApp1
     {
 
         static ResultsViewModel resultsViewModel;
+
+        //Database instance stored in this file, App.xaml.cs
+        static PieceDB database;
+
+        public static PieceDB PieceDatabase
+        {
+            get
+            {
+                //If the database hasn't been opened yet
+                if (database == null)
+                {
+                    //Filename 
+                    var sqliteFilename = "lego_parts.db3";
+                    //Directory
+                    string documentsDirectoryPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                    //Filepath
+                    var path = Path.Combine(documentsDirectoryPath, sqliteFilename);
+                    //Open database at path specified
+                    database = new PieceDB(path);
+                }
+                return database;
+            }
+        }
 
         public App()
         {
