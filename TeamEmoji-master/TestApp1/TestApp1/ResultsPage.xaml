@@ -15,8 +15,7 @@
                 <Label Margin="10" Text="Placeholder" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" x:Name ="displayLink" />
             </StackLayout>
           <BoxView Color="#ffc15e" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
-            <Label Text="{Binding Catagory}" x:Name="CatagoryName"/>
-            <Label Text="{Binding Url}" x:Name="UrlName"/>
+            
         </StackLayout>
     </ScrollView>
 </ContentPage>

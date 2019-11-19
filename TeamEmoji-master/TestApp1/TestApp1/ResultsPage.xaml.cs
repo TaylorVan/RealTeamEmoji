@@ -15,16 +15,6 @@ namespace TestApp1
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ResultsPage : ContentPage
     {
-        protected override async void OnAppearing()
-        {
-            base.OnAppearing(); 
-
-            var thing = await App.PieceDatabase.GetPieceByPartNum(App.ResultsViewModel.PieceGuessed.PartNum.ToString());
-
-            CatagoryName.Text = thing.Catagory;
-            UrlName.Text = thing.Url;
-        }
-
         public ResultsPage()
         {
             InitializeComponent();
