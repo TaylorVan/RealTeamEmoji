@@ -20,11 +20,10 @@ namespace TestApp1
             InitializeComponent();
             BindingContext = new ResultsViewModel();
 
-
             imageToIdentify.Source = App.ResultsViewModel.PieceGuessed.Url;
-            displayName.Text = "Name: " + App.ResultsViewModel.PieceGuessed.PartName.ToString();
-            displayPartId.Text = "Part ID: " + App.ResultsViewModel.PieceGuessed.PartNum.ToString();
-
+            displayName.Text = "Name: " + App.ResultsViewModel.PieceGuessed.PartName;
+            displayPartId.Text = "Part ID: " + App.ResultsViewModel.PieceGuessed.PartNum;
+            displayCatagory.Text = App.ResultsViewModel.PieceGuessed.Catagory;
         }
     }
 }
