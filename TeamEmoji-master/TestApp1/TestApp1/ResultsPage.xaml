@@ -13,6 +13,7 @@
                 <Label Margin="10" Text="Placeholder" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" x:Name="displayName" />
                 <Label Margin="10" Text="Placeholder" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" x:Name="displayPartId" />
                 <Label Margin="10" Text="Placeholder" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" x:Name ="displayCatagory" />
+                
             </StackLayout>
           <BoxView Color="#ffc15e" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
             

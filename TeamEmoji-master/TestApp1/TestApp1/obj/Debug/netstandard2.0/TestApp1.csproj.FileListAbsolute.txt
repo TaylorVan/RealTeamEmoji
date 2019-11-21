@@ -12,3 +12,4 @@ C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp
 C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.dll
 C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\ref\TestApp1.dll
 C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.pdb
+C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.csprojAssemblyReference.cache
