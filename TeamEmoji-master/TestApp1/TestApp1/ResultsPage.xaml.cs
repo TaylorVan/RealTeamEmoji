@@ -16,7 +16,7 @@ namespace TestApp1
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ResultsPage : ContentPage
     {
-
+        public ICommand TapCommand => new Command<string>(OpenBrowser);
 
         public ResultsPage()
         {
@@ -27,6 +27,13 @@ namespace TestApp1
             displayName.Text = "Name: " + App.ResultsViewModel.PieceGuessed.PartName;
             displayPartId.Text = "Part ID: " + App.ResultsViewModel.PieceGuessed.PartNum;
             displayCatagory.Text = App.ResultsViewModel.PieceGuessed.Catagory;
+            link.CommandParameter = "https://rebrickable.com/parts/" + App.ResultsViewModel.PieceGuessed.PartNum + "/#buy_parts";
+            BindingContext = this;
+        }
+
+        void OpenBrowser(string url)
+        {
+            Device.OpenUri(new Uri(url));
         }
 
     }

@@ -13,7 +13,22 @@
                 <Label Margin="10" Text="Placeholder" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" x:Name="displayName" />
                 <Label Margin="10" Text="Placeholder" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" x:Name="displayPartId" />
                 <Label Margin="10" Text="Placeholder" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" x:Name ="displayCatagory" />
-                
+                <Label  Margin="10" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Need more of this part? Purchase more " />
+                            <Span Text="here"
+                  TextColor="Blue"
+                  TextDecorations="Underline">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding TapCommand}" x:Name="link"
+                                          CommandParameter="link here" />
+                                </Span.GestureRecognizers>
+                            </Span>
+                            <Span Text="." />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
             </StackLayout>
           <BoxView Color="#ffc15e" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
             
