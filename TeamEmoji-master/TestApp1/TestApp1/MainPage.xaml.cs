@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using Xamarin.Forms;
+using TestApp1.Models;
+using Xam.Plugins.OnDeviceCustomVision;
 
 namespace TestApp1
 {
@@ -17,6 +19,7 @@ namespace TestApp1
     {
         public MainPage()
         {
+
             InitializeComponent();
 
 
@@ -40,7 +43,14 @@ namespace TestApp1
                     if (file == null)
                         return;
 
-                    await DisplayAlert("File Location", (saveToGallery.IsToggled ? file.AlbumPath : file.Path), "OK");
+                    //await DisplayAlert("File Location", (saveToGallery.IsToggled ? file.AlbumPath : file.Path), "OK");
+
+                    var tags = await CrossImageClassifier.Current.ClassifyImage(file.GetStream());
+                    var partId = tags.OrderByDescending(t => t.Probability).First().Tag;
+                    var db = App.PieceDatabase.GetAllPieces();
+                    Piece p = db.Result.Find(t => t.PartNum == partId);
+                    //Part p = parts.Find(t => t.partId == partId);
+                    App.ResultsViewModel.PieceGuessed = p;
 
                     image.Source = ImageSource.FromStream(() =>
                     {
@@ -73,6 +83,29 @@ namespace TestApp1
                     if (file == null)
                         return;
 
+                    var tags = await CrossImageClassifier.Current.ClassifyImage(file.GetStream());
+                    var partId = tags.OrderByDescending(t => t.Probability).First().Tag;
+                    var db = App.PieceDatabase.GetAllPieces();
+                    Piece p = db.Result.Find(t => t.PartNum == partId);
+                    //Part p = parts.Find(t => t.partId == partId);
+                    App.ResultsViewModel.PieceGuessed = p;
+
+                    /*
+                    getPartInfo(p);
+                    //Loop through first three guesses
+                    var n = 0;
+                    info.Text = "\n";
+                    while (n < 3)
+                    {
+                        //Get probability and round to 2 decimals/convert to string
+                        var probability = tags.OrderByDescending(t => t.Probability).ElementAt(n).Probability * 100;
+                        var probStr = probability.ToString("#.##");
+                        //Set Label on MainPage
+                        info.Text += n + 1 + ". " + tags.OrderByDescending(t => t.Probability).ElementAt(n).Tag + " with " + probStr + "% confidence\n";
+                        ++n;
+                    }
+                    */
+
                     stream = file.GetStream();
                     file.Dispose();
 
@@ -87,64 +120,6 @@ namespace TestApp1
                 }
             };
 
-            /*
-            takeVideo.Clicked += async (sender, args) =>
-            {
-                if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakeVideoSupported)
-                {
-                    await DisplayAlert("No Camera", ":( No camera avaialble.", "OK");
-                    return;
-                }
-
-                try
-                {
-                    var file = await CrossMedia.Current.TakeVideoAsync(new Plugin.Media.Abstractions.StoreVideoOptions
-                    {
-                        Name = "video.mp4",
-                        Directory = "DefaultVideos",
-                        SaveToAlbum = saveToGallery.IsToggled
-                    });
-
-                    if (file == null)
-                        return;
-
-                    await DisplayAlert("Video Recorded", "Location: " + (saveToGallery.IsToggled ? file.AlbumPath : file.Path), "OK");
-
-                    file.Dispose();
-
-                }
-                catch //(Exception ex)
-                {
-                    // Xamarin.Insights.Report(ex);
-                    // await DisplayAlert("Uh oh", "Something went wrong, but don't worry we captured it in Xamarin Insights! Thanks.", "OK");
-                }
-            };
-
-            pickVideo.Clicked += async (sender, args) =>
-            {
-                if (!CrossMedia.Current.IsPickVideoSupported)
-                {
-                    await DisplayAlert("Videos Not Supported", ":( Permission not granted to videos.", "OK");
-                    return;
-                }
-                try
-                {
-                    var file = await CrossMedia.Current.PickVideoAsync();
-
-                    if (file == null)
-                        return;
-
-                    await DisplayAlert("Video Selected", "Location: " + file.Path, "OK");
-                    file.Dispose();
-
-                }
-                catch //(Exception ex)
-                {
-                    //Xamarin.Insights.Report(ex);
-                    //await DisplayAlert("Uh oh", "Something went wrong, but don't worry we captured it in Xamarin Insights! Thanks.", "OK");
-                }
-            };
-            */
         }
     }
 }

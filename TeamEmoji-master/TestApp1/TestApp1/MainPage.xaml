@@ -8,16 +8,12 @@
 
         <!-- Place new controls here -->
     <ScrollView>
-        <StackLayout Spacing="0" BackgroundColor="#ffc15e">
-            <Button x:Name="takePhoto" Text="Take Photo"/>
-            <Button x:Name="pickPhoto" Text="Choose from Gallery"/>
-            <!--
-            <Button x:Name="takeVideo" Text="Take Video"/>
-            <Button x:Name="pickVideo" Text="Pick Video"/>
-            -->
-            <Label Text="Save to Gallery"/>
+        <StackLayout Spacing="30" BackgroundColor="#ffc15e">
+            <BoxView Color="#ffc15e" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="takePhoto" Text="Take Photo" Margin="50"/>
+            <Button x:Name="pickPhoto" Text="Choose from Gallery" Margin="50"/>
+            <Label Text="Save to Gallery" HorizontalOptions="Center"/>
             <Switch x:Name="saveToGallery" IsToggled="false" HorizontalOptions="Center"/>
-            <Label Text="Image will show here"/>
             <Image x:Name="image"  Margin="10" HorizontalOptions="FillAndExpand"/>
             <BoxView Color="#ffc15e" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
 

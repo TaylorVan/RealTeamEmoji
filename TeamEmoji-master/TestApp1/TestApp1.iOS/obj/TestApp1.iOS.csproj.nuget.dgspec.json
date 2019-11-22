@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1.iOS\\TestApp1.iOS.csproj": {}
+    "C:\\Users\\scott\\OneDrive\\Documents\\Lego Parts Identifier\\TeamEmoji-master\\TestApp1\\TestApp1.iOS\\TestApp1.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1.iOS\\TestApp1.iOS.csproj": {
+    "C:\\Users\\scott\\OneDrive\\Documents\\Lego Parts Identifier\\TeamEmoji-master\\TestApp1\\TestApp1.iOS\\TestApp1.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1.iOS\\TestApp1.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\scott\\OneDrive\\Documents\\Lego Parts Identifier\\TeamEmoji-master\\TestApp1\\TestApp1.iOS\\TestApp1.iOS.csproj",
         "projectName": "TestApp1.iOS",
-        "projectPath": "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1.iOS\\TestApp1.iOS.csproj",
-        "packagesPath": "C:\\Users\\Taylor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1.iOS\\obj\\",
+        "projectPath": "C:\\Users\\scott\\OneDrive\\Documents\\Lego Parts Identifier\\TeamEmoji-master\\TestApp1\\TestApp1.iOS\\TestApp1.iOS.csproj",
+        "packagesPath": "C:\\Users\\scott\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\scott\\OneDrive\\Documents\\Lego Parts Identifier\\TeamEmoji-master\\TestApp1\\TestApp1.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Taylor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj": {
-                "projectPath": "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj"
+              "C:\\Users\\scott\\OneDrive\\Documents\\Lego Parts Identifier\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj": {
+                "projectPath": "C:\\Users\\scott\\OneDrive\\Documents\\Lego Parts Identifier\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj"
               }
             }
           }
@@ -42,6 +42,10 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "Xam.Plugins.OnDeviceCustomVision": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.3.1, )"
@@ -49,6 +53,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.2.0.709249, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           }
         }
@@ -65,21 +73,20 @@
         }
       }
     },
-    "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj": {
+    "C:\\Users\\scott\\OneDrive\\Documents\\Lego Parts Identifier\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj",
+        "projectUniqueName": "C:\\Users\\scott\\OneDrive\\Documents\\Lego Parts Identifier\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj",
         "projectName": "TestApp1",
-        "projectPath": "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj",
-        "packagesPath": "C:\\Users\\Taylor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\obj\\",
+        "projectPath": "C:\\Users\\scott\\OneDrive\\Documents\\Lego Parts Identifier\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj",
+        "packagesPath": "C:\\Users\\scott\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\scott\\OneDrive\\Documents\\Lego Parts Identifier\\TeamEmoji-master\\TestApp1\\TestApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Taylor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -114,6 +121,10 @@
               "target": "Package",
               "version": "[4.0.1.5, )"
             },
+            "Xam.Plugins.OnDeviceCustomVision": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.2.0, )"
@@ -121,13 +132,23 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.2.0.709249, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
