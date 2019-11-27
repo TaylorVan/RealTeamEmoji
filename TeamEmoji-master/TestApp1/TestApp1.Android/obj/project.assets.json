@@ -2258,24 +2258,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\scott\\.nuget\\packages\\": {},
+    "C:\\Users\\Taylor\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\scott\\OneDrive\\Documents\\Lego Parts Identifier\\TeamEmoji-master\\TestApp1\\TestApp1.Android\\TestApp1.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1.Android\\TestApp1.Android.csproj",
       "projectName": "TestApp1.Android",
-      "projectPath": "C:\\Users\\scott\\OneDrive\\Documents\\Lego Parts Identifier\\TeamEmoji-master\\TestApp1\\TestApp1.Android\\TestApp1.Android.csproj",
-      "packagesPath": "C:\\Users\\scott\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\scott\\OneDrive\\Documents\\Lego Parts Identifier\\TeamEmoji-master\\TestApp1\\TestApp1.Android\\obj\\",
+      "projectPath": "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1.Android\\TestApp1.Android.csproj",
+      "packagesPath": "C:\\Users\\Taylor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Taylor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2289,8 +2289,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\scott\\OneDrive\\Documents\\Lego Parts Identifier\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj": {
-              "projectPath": "C:\\Users\\scott\\OneDrive\\Documents\\Lego Parts Identifier\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj"
+            "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj": {
+              "projectPath": "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj"
             }
           }
         }

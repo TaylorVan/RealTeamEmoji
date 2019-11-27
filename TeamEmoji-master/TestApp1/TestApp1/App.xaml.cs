@@ -38,7 +38,7 @@ namespace TestApp1
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Page1());
+            MainPage = new NavigationPage(new MainMenu());
             resultsViewModel = new ResultsViewModel();
         }
 

@@ -42,5 +42,28 @@ namespace TestApp1.Droid
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
+        public override void OnBackPressed()
+        {
+            if (App.ResultsViewModel.OverrideBackButton)
+            {
+                //return;
+            }
+            base.OnBackPressed();
+
+        }
+
+
+        protected override void OnRestart()
+        {
+            //App.ResultsViewModel.IsLoading = false;
+            base.OnRestart();
+        }
+
+        protected override void OnResume()
+        {
+            //App.ResultsViewModel.IsLoading = false;
+            base.OnResume();
+        }
+
     }
 }
