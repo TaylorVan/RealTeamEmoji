@@ -4,9 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TestApp1.MainMenu"
+             x:Class="TestApp1.Page1"
              NavigationPage.HasNavigationBar="false">
-    
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Spacing="0" BackgroundColor="#ffc15e">

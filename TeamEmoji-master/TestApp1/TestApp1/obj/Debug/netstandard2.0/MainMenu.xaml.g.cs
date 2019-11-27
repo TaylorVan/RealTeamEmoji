@@ -8,13 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TestApp1.MainMenu.xaml", "MainMenu.xaml", typeof(global::TestApp1.MainMenu))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TestApp1.MainMenu.xaml", "MainMenu.xaml", typeof(global::TestApp1.Page1))]
 
 namespace TestApp1 {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("MainMenu.xaml")]
-    public partial class MainMenu : global::Xamarin.Forms.ContentPage {
+    public partial class Page1 : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Image logo;
@@ -24,7 +24,7 @@ namespace TestApp1 {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainMenu));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Page1));
             logo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "logo");
             enterButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "enterButton");
         }

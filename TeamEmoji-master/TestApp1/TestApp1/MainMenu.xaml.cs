@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace TestApp1
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MainMenu : ContentPage
+    public partial class Page1 : ContentPage
     {
-        public MainMenu()
+        public Page1()
         {
             InitializeComponent();
 

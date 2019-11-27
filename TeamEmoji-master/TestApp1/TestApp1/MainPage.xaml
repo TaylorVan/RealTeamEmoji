@@ -3,26 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:local="clr-namespace:TestApp1.Converters"
              mc:Ignorable="d"
-             x:Class="TestApp1.MainPage"
-             NavigationPage.HasNavigationBar="false">
+             x:Class="TestApp1.MainPage">
 
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <local:BooleanConverter x:Key="inverter" />
-        </ResourceDictionary>
-    </ContentPage.Resources>
-    
+        <!-- Place new controls here -->
     <ScrollView>
         <StackLayout Spacing="30" BackgroundColor="#ffc15e">
             <BoxView Color="#ffc15e" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
-            <Button x:Name="takePhoto" Text="Take Photo" Margin="10" Clicked="TakePhoto_Clicked" IsVisible="{Binding IsLoading, Converter={StaticResource inverter}}" />
-            <Button x:Name="pickPhoto" Text="Choose from Gallery" Margin="10" Clicked="PickPhoto_Clicked" IsVisible="{Binding IsLoading, Converter={StaticResource inverter}}" />
-            <Label Text="LOADING..." HorizontalOptions="Center" IsVisible="{Binding IsLoading}"/>
-            <ActivityIndicator IsRunning="{Binding IsLoading}" />
+            <Button x:Name="takePhoto" Text="Take Photo" Margin="50"/>
+            <Button x:Name="pickPhoto" Text="Choose from Gallery" Margin="50"/>
+            <Label Text="Save to Gallery" HorizontalOptions="Center"/>
+            <Switch x:Name="saveToGallery" IsToggled="false" HorizontalOptions="Center"/>
+            <Image x:Name="image"  Margin="10" HorizontalOptions="FillAndExpand"/>
             <BoxView Color="#ffc15e" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
-            <Button Text="Return" Clicked="ReturnClicked" Margin="20" HorizontalOptions="End" BackgroundColor="DarkGray" IsVisible="{Binding IsLoading, Converter={StaticResource inverter}}" />
+
         </StackLayout>
     </ScrollView>
 </ContentPage>
