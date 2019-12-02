@@ -2,12 +2,15 @@ FormsViewGroup
 Plugin.CurrentActivity
 Plugin.Media
 Plugin.Permissions
+SQLite-net
 SQLitePCLRaw.batteries_green
 SQLitePCLRaw.batteries_v2
 SQLitePCLRaw.core
 SQLitePCLRaw.lib.e_sqlite3
 SQLitePCLRaw.provider.e_sqlite3
+System.Runtime
 TensorFlowXamarin
+TestApp1
 Xam.Plugins.OnDeviceCustomVision
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Core.Runtime
@@ -47,5 +50,9 @@ Xamarin.Android.Support.Vector.Drawable
 Xamarin.Android.Support.VersionedParcelable
 Xamarin.Android.Support.ViewPager
 Xamarin.Essentials
+Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
+Xamarin.Forms.Xaml
+netstandard
+System.Reflection.Extensions

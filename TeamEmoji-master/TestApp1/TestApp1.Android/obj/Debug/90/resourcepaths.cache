@@ -1,1 +1,6 @@
-<Paths><AdditionalAndroidResourcePaths /><AdditionalJavaLibraryReferences /><AdditionalNativeLibraryReferences /></Paths>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <AdditionalAndroidResourcePaths />
+  <AdditionalJavaLibraryReferences />
+  <AdditionalNativeLibraryReferences />
+</Paths>

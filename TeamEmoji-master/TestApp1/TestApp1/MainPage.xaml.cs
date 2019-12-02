@@ -23,9 +23,67 @@ namespace TestApp1
             InitializeComponent();
 
 
-            takePhoto.Clicked += async (sender, args) =>
+        //Event handler for the Take Photo button
+        //Get image from camera >> classify image >> Set piece in viewmodel >> Go to results
+        private async void TakePhoto_Clicked(object sender, EventArgs e)
+        {
+
+            MediaFile file = await TakePhoto();
+
+            if (file == null)
+                return;
+
+            App.ResultsViewModel.IsLoading = true;
+
+            Piece piece = await ClassifyImage(file.GetStream());
+            if (piece == null)
             {
 
+            file.Dispose();
+            App.ResultsViewModel.IsLoading = false;
+            await Navigation.PushAsync(new ResultsPage());
+        }
+
+        //Event handler for the Pick Photo button
+        //Get image from gallery >> classify image >> Set piece in viewmodel >> Go to results
+        private async void PickPhoto_Clicked(object sender, EventArgs e)
+        {
+
+            MediaFile file = await PickPhoto();
+
+            if (file == null)
+                return;
+
+            Piece piece = await ClassifyImage(file.GetStream());
+            if(piece == null)
+            {
+                App.ResultsViewModel.PieceGuessed = null;
+                App.ResultsViewModel.PieceNotIdentified = true;
+            }
+            else
+            {
+                App.ResultsViewModel.PieceGuessed = piece;
+            }
+
+            //stream = file.GetStream();
+            file.Dispose();
+
+            App.ResultsViewModel.IsLoading = false;
+            //image.Source = ImageSource.FromStream(() => stream);
+            await Navigation.PushAsync(new ResultsPage());
+
+        }
+
+        //Runs Xamarin.Plugins.Media TakePhotoAsync method to get a photo, of type MediaFile, from the camera
+        //Returns a Task with result type of MediaFile image or NULL if image failed
+        //To access the result's type, either convert it by using {  MediaFile result = await TakePhoto() }
+        //      or access it directly with {  var task,     result.Result   }
+        private async Task<MediaFile> TakePhoto()
+        {
+            MediaFile file = null;
+
+            await Task.Run(async () =>
+            {
                 if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
                 {
                     await DisplayAlert("No Camera", ":( No camera avaialble. Sorry", "OK");
@@ -80,8 +138,12 @@ namespace TestApp1
                     var file = await CrossMedia.Current.PickPhotoAsync().ConfigureAwait(true);
 
 
-                    if (file == null)
-                        return;
+        //Get piece from neural network
+        //Calls OnDiviceCustomVision's ClassifyImage function to get a list of parts that are then ordered
+        //by probability. The most likely piece is returned
+        public async Task<Piece> ClassifyImage(Stream file)
+        {
+            App.ResultsViewModel.PieceNotIdentified = false;
 
                     var tags = await CrossImageClassifier.Current.ClassifyImage(file.GetStream());
                     var partId = tags.OrderByDescending(t => t.Probability).First().Tag;
@@ -90,24 +152,14 @@ namespace TestApp1
                     //Part p = parts.Find(t => t.partId == partId);
                     App.ResultsViewModel.PieceGuessed = p;
 
-                    /*
-                    getPartInfo(p);
-                    //Loop through first three guesses
-                    var n = 0;
-                    info.Text = "\n";
-                    while (n < 3)
-                    {
-                        //Get probability and round to 2 decimals/convert to string
-                        var probability = tags.OrderByDescending(t => t.Probability).ElementAt(n).Probability * 100;
-                        var probStr = probability.ToString("#.##");
-                        //Set Label on MainPage
-                        info.Text += n + 1 + ". " + tags.OrderByDescending(t => t.Probability).ElementAt(n).Tag + " with " + probStr + "% confidence\n";
-                        ++n;
-                    }
-                    */
+            var tags = await CrossImageClassifier.Current.ClassifyImage(file);
+            App.ResultsViewModel.Probability = tags.OrderByDescending(t => t.Probability).First().Probability;
 
-                    stream = file.GetStream();
-                    file.Dispose();
+            //Check if the highest probability meets the minimum threshold
+            if (!probabilityTest(App.ResultsViewModel.Probability))
+            {
+                return null;
+            }
 
                     image.Source = ImageSource.FromStream(() => stream);
                     await Navigation.PushAsync(new ResultsPage());
@@ -120,6 +172,37 @@ namespace TestApp1
                 }
             };
 
+        }
+
+        //Event handler for the back button
+        private async void ReturnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainMenu());
+        }
+        
+        //Test function for checking if piece object is correctly passing
+        public Piece GetPieceTest()
+        {
+            Piece piece = new Piece();
+            piece.Catagory = "Beam";
+            piece.PartName = "7 Beam";
+            piece.PartNum = "1234";
+            piece.Url = "Test.com";
+            return piece;
+        }
+
+
+        //Function to check the probability of the neural network
+        public bool probabilityTest(double probability)
+        {
+            if (probability > 0.6)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

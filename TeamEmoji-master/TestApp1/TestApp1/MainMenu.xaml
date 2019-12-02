@@ -4,8 +4,9 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TestApp1.Page1"
+             x:Class="TestApp1.MainMenu"
              NavigationPage.HasNavigationBar="false">
+    
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Spacing="0" BackgroundColor="#ffc15e">
@@ -13,7 +14,7 @@
                 <Image x:Name="logo" Source="logo.png" BackgroundColor="#ffc15e" HorizontalOptions="FillAndExpand" />
                 <Label Text="EV3 Identifier" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="#ffc15e"/>
                 <BoxView Color="#ffc15e" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
-                <Button x:Name="enterButton" Text="Enter" HorizontalOptions="Center"/>
+                <Button x:Name="enterButton" Text="Enter" HorizontalOptions="Center" />
                 <BoxView Color="#ffc15e" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
                 <StackLayout.GestureRecognizers>
                     <SwipeGestureRecognizer Direction="Up" Swiped="OnSwiped"/>
