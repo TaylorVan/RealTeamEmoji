@@ -14,19 +14,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="MainMenu.xaml.cs">
+    <Compile Update="Views\MainMenu.xaml.cs">
       <DependentUpon>MainMenu.xaml</DependentUpon>
     </Compile>
-    <Compile Update="ResultsPage.xaml.cs">
+    <Compile Update="Views\ResultsPage.xaml.cs">
       <DependentUpon>ResultsPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="MainMenu.xaml">
+    <EmbeddedResource Update="Views\MainMenu.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ResultsPage.xaml">
+    <EmbeddedResource Update="Views\ResultsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

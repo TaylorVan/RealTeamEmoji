@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
-using TestApp1.Models;
 using System.ComponentModel;
 
 namespace TestApp1.ViewModels
