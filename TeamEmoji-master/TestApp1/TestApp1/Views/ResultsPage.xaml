@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:TestApp1.Converters"
+             mc:Ignorable="d"
+             x:Class="TestApp1.ResultsPage"
+             NavigationPage.HasNavigationBar="false">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:BooleanConverter x:Key="inverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Spacing="0" BackgroundColor="#e8ae68">
+        <ScrollView BackgroundColor="#e8ae68" VerticalScrollBarVisibility="Always">
+            <StackLayout Spacing="3" Margin="10" BackgroundColor="#e8ae68">
+                <Label Text="Sorry... I could not identify an EV3 piece in the photo you took." x:Name="displayFail"/>
+                <Frame OutlineColor="Black" x:Name="imageFrame" HorizontalOptions="Center" VerticalOptions="Center" Padding="0">
+                    <Image x:Name="imageToIdentify" HorizontalOptions="Center" Scale="0.5"/>
+                </Frame>
+                <Frame OutlineColor="Black" x:Name="probabilityFrame" HorizontalOptions="Center" VerticalOptions="Center" Padding="5">
+                    <Label Text="Placeholder" x:Name="displayProbability" HorizontalOptions="Center"/>
+                </Frame>
+                <Frame OutlineColor="Black" x:Name="resultsFrame" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="#ffd275">
+                    <StackLayout BackgroundColor="#ffd275" Margin="0" Spacing="5">
+                        <Label Margin="10" Text="Placeholder" HorizontalOptions="CenterAndExpand" x:Name="displayName" FontAttributes="Bold"/>
+                        <Label Margin="10" Text="Placeholder" HorizontalOptions="CenterAndExpand" x:Name ="displayPartId" VerticalOptions="CenterAndExpand"/>
+                        <Label Margin="10" Text="Placeholder" HorizontalOptions="CenterAndExpand" x:Name="displayCatagory" VerticalOptions="CenterAndExpand"/>
+                        <Label Margin="10" Text="Placeholder" HorizontalOptions="CenterAndExpand" x:Name="displayDescription" VerticalOptions="CenterAndExpand"/>
+                        <Label  Margin="10" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" x:Name="displayLink">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Need more of this part? Purchase more " />
+                                    <Span Text="here"
+                      TextColor="Blue"
+                      TextDecorations="Underline">
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding TapCommand}" x:Name="link"
+                                              CommandParameter="link here" />
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                    <Span Text="." />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+        <StackLayout BackgroundColor="#e8ae68">
+            <Button Text="Return" Clicked="OnButtonClicked" Margin="1" HorizontalOptions="End" BackgroundColor="#db5a42"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

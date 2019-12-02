@@ -2263,11 +2263,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roy\\source\\repos\\TeamEmoji-master\\TestApp1\\TestApp1.Android\\TestApp1.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Roy\\source\\repos\\RealTeamEmoji-master2\\TeamEmoji-master\\TestApp1\\TestApp1.Android\\TestApp1.Android.csproj",
       "projectName": "TestApp1.Android",
-      "projectPath": "C:\\Users\\Roy\\source\\repos\\TeamEmoji-master\\TestApp1\\TestApp1.Android\\TestApp1.Android.csproj",
+      "projectPath": "C:\\Users\\Roy\\source\\repos\\RealTeamEmoji-master2\\TeamEmoji-master\\TestApp1\\TestApp1.Android\\TestApp1.Android.csproj",
       "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roy\\source\\repos\\TeamEmoji-master\\TestApp1\\TestApp1.Android\\obj\\",
+      "outputPath": "C:\\Users\\Roy\\source\\repos\\RealTeamEmoji-master2\\TeamEmoji-master\\TestApp1\\TestApp1.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2284,8 +2284,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Roy\\source\\repos\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj": {
-              "projectPath": "C:\\Users\\Roy\\source\\repos\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj"
+            "C:\\Users\\Roy\\source\\repos\\RealTeamEmoji-master2\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj": {
+              "projectPath": "C:\\Users\\Roy\\source\\repos\\RealTeamEmoji-master2\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj"
             }
           }
         }

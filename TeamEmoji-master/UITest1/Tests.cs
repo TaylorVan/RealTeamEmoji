@@ -27,17 +27,17 @@ namespace UITest1
         [Test]
         public void EnterMenu()
         {
-            app.WaitForElement(x => x.Marked("Enter"));
-            app.Tap(x => x.Marked("Enter"));
+
+            app.Tap(x => x.Marked("button"));
         }
 
         [Test]
         public void TakingPhoto()
         {
-            app.Tap(x => x.Marked("Enter"));
-            app.WaitForElement(x => x.Marked("Take Photo"));
-            app.Tap(x => x.Marked("Take Photo"));
-            app.WaitForElement(x => x.Marked("Part Idenified:"), "Too slow to take photo", TimeSpan.FromSeconds(1));
+            app.Tap(x => x.Marked("button"));
+            app.WaitForElement(x => x.Marked("takephoto"));
+            app.Tap(x => x.Marked("takephoto"));
+            app.WaitForElement(x => x.Marked("finished"), "Too slow to take photo", TimeSpan.FromSeconds(1000));
         }
 
         [Test]
@@ -46,7 +46,7 @@ namespace UITest1
             app.Tap(x => x.Marked("Enter"));
             app.WaitForElement(x => x.Marked("Choose From Gallery"));
             app.Tap(x => x.Marked("Choose From Gallery"));
-            app.WaitForElement(x => x.Marked("Part Idenified:"), "Too slow to take photo", TimeSpan.FromSeconds(30));
+            app.WaitForElement(x => x.Marked("Part Identified:"), "Too slow to take photo", TimeSpan.FromSeconds(30));
         }
 
         [Test]

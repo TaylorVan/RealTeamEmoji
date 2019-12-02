@@ -164,11 +164,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roy\\source\\repos\\TeamEmoji-master\\UITest1\\UITest1.csproj",
+      "projectUniqueName": "C:\\Users\\Roy\\source\\repos\\RealTeamEmoji-master2\\TeamEmoji-master\\UITest1\\UITest1.csproj",
       "projectName": "UITest1",
-      "projectPath": "C:\\Users\\Roy\\source\\repos\\TeamEmoji-master\\UITest1\\UITest1.csproj",
+      "projectPath": "C:\\Users\\Roy\\source\\repos\\RealTeamEmoji-master2\\TeamEmoji-master\\UITest1\\UITest1.csproj",
       "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roy\\source\\repos\\TeamEmoji-master\\UITest1\\obj\\",
+      "outputPath": "C:\\Users\\Roy\\source\\repos\\RealTeamEmoji-master2\\TeamEmoji-master\\UITest1\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

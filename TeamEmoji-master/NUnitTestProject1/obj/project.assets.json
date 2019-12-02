@@ -6530,8 +6530,6 @@
       "Microsoft.NETCore.App >= 2.1.0",
       "NUnit3TestAdapter >= 3.10.0",
       "TestApp1 >= 1.0.0",
-      "Xam.Plugin.Media >= 4.0.1.5",
-      "Xam.Plugins.OnDeviceCustomVision >= 2.2.2",
       "nunit >= 3.10.1"
     ]
   },
@@ -6542,11 +6540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roy\\source\\repos\\TeamEmoji-master\\NUnitTestProject1\\NUnitTestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\Roy\\source\\repos\\RealTeamEmoji-master2\\TeamEmoji-master\\NUnitTestProject1\\NUnitTestProject1.csproj",
       "projectName": "NUnitTestProject1",
-      "projectPath": "C:\\Users\\Roy\\source\\repos\\TeamEmoji-master\\NUnitTestProject1\\NUnitTestProject1.csproj",
+      "projectPath": "C:\\Users\\Roy\\source\\repos\\RealTeamEmoji-master2\\TeamEmoji-master\\NUnitTestProject1\\NUnitTestProject1.csproj",
       "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roy\\source\\repos\\TeamEmoji-master\\NUnitTestProject1\\obj\\",
+      "outputPath": "C:\\Users\\Roy\\source\\repos\\RealTeamEmoji-master2\\TeamEmoji-master\\NUnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6565,8 +6563,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Roy\\source\\repos\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj": {
-              "projectPath": "C:\\Users\\Roy\\source\\repos\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj"
+            "C:\\Users\\Roy\\source\\repos\\RealTeamEmoji-master2\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj": {
+              "projectPath": "C:\\Users\\Roy\\source\\repos\\RealTeamEmoji-master2\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj"
             }
           }
         }
@@ -6592,14 +6590,6 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[3.10.0, )"
-          },
-          "Xam.Plugin.Media": {
-            "target": "Package",
-            "version": "[4.0.1.5, )"
-          },
-          "Xam.Plugins.OnDeviceCustomVision": {
-            "target": "Package",
-            "version": "[2.2.2, )"
           },
           "nunit": {
             "target": "Package",

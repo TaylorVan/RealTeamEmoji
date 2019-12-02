@@ -1,7 +1,5 @@
 using NUnit.Framework;
 using TestApp1;
-using Plugin.Media.Abstractions;
-using System.IO;
 
 namespace Tests
 {
@@ -41,7 +39,7 @@ namespace Tests
             //Creates new main page
             MainPage page = new MainPage();
             //gets results for a number higer than current threshold
-            bool result = page.probabilityTest(0.7);
+            bool result = page.ProbabilityTest(0.7);
             //Assert to make sure its true
             Assert.IsTrue(result);
         }
@@ -52,7 +50,7 @@ namespace Tests
             //Crestes new main page
             MainPage page = new MainPage();
             //gets results for a number higer than current threshold
-            bool result = page.probabilityTest(0.5);
+            bool result = page.ProbabilityTest(0.5);
             //Assert to make sure its false
             Assert.IsFalse(result);
         }

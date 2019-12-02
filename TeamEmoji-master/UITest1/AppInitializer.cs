@@ -1,10 +1,11 @@
 ﻿using System;
 using Xamarin.UITest;
 using Xamarin.UITest.Queries;
+using Xamarin.UITest.Utils;
 
 namespace UITest1
 {
-    class AppInitializer
+    public class AppInitializer
     {
         public static IApp StartApp(Platform platform)
         {
@@ -14,6 +15,29 @@ namespace UITest1
             }
 
             return ConfigureApp.iOS.StartApp();
+        }
+
+        public class WaitTimes : IWaitTimes
+
+        {
+
+            public TimeSpan GestureWaitTimeout
+
+            {
+
+                get { return TimeSpan.FromMinutes(1); }
+
+            }
+
+            public TimeSpan WaitForTimeout
+
+            {
+
+                get { return TimeSpan.FromMinutes(1); }
+
+            }
+
+            public TimeSpan GestureCompletionTimeout => throw new NotImplementedException();
         }
     }
 }

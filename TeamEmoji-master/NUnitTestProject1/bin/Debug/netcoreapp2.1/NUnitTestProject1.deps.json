@@ -11,8 +11,6 @@
           "Microsoft.NET.Test.Sdk": "15.8.0",
           "NUnit3TestAdapter": "3.10.0",
           "TestApp1": "1.0.0",
-          "Xam.Plugin.Media": "4.0.1.5",
-          "Xam.Plugins.OnDeviceCustomVision": "2.2.2",
           "NUnit": "3.10.1"
         },
         "runtime": {

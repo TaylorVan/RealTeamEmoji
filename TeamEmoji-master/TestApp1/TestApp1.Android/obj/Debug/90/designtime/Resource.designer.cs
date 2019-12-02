@@ -5748,6 +5748,393 @@ namespace TestApp1.Droid
 			// aapt resource value: 0x7F090070
 			public const int tooltip_frame_light = 2131296368;
 			
+			// aapt resource value: 0x7F010003
+			public const int _10928 = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int _11145 = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int _18575 = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int _24505 = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int _2736 = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int _2780 = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int _2815 = 2130771977;
+			
+			// aapt resource value: 0x7F010010
+			public const int _32009 = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int _32013 = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int _32014 = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int _32034 = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int _32039 = 2130771988;
+			
+			// aapt resource value: 0x7F010015
+			public const int _32054 = 2130771989;
+			
+			// aapt resource value: 0x7F010016
+			public const int _32062 = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int _32068 = 2130771991;
+			
+			// aapt resource value: 0x7F010018
+			public const int _32072 = 2130771992;
+			
+			// aapt resource value: 0x7F010019
+			public const int _32073 = 2130771993;
+			
+			// aapt resource value: 0x7F010020
+			public const int _32123b = 2130772000;
+			
+			// aapt resource value: 0x7F010021
+			public const int _32138 = 2130772001;
+			
+			// aapt resource value: 0x7F010022
+			public const int _32140 = 2130772002;
+			
+			// aapt resource value: 0x7F010023
+			public const int _32192 = 2130772003;
+			
+			// aapt resource value: 0x7F010024
+			public const int _32198 = 2130772004;
+			
+			// aapt resource value: 0x7F010025
+			public const int _32269 = 2130772005;
+			
+			// aapt resource value: 0x7F010026
+			public const int _32270 = 2130772006;
+			
+			// aapt resource value: 0x7F010027
+			public const int _32271 = 2130772007;
+			
+			// aapt resource value: 0x7F010028
+			public const int _32278 = 2130772008;
+			
+			// aapt resource value: 0x7F010029
+			public const int _32291 = 2130772009;
+			
+			// aapt resource value: 0x7F010030
+			public const int _32293 = 2130772016;
+			
+			// aapt resource value: 0x7F010031
+			public const int _32316 = 2130772017;
+			
+			// aapt resource value: 0x7F010032
+			public const int _32348 = 2130772018;
+			
+			// aapt resource value: 0x7F010033
+			public const int _32449 = 2130772019;
+			
+			// aapt resource value: 0x7F010034
+			public const int _32498 = 2130772020;
+			
+			// aapt resource value: 0x7F010035
+			public const int _32523 = 2130772021;
+			
+			// aapt resource value: 0x7F010036
+			public const int _32524 = 2130772022;
+			
+			// aapt resource value: 0x7F010037
+			public const int _32525 = 2130772023;
+			
+			// aapt resource value: 0x7F010038
+			public const int _32526 = 2130772024;
+			
+			// aapt resource value: 0x7F010039
+			public const int _32556 = 2130772025;
+			
+			// aapt resource value: 0x7F010040
+			public const int _32905 = 2130772032;
+			
+			// aapt resource value: 0x7F010041
+			public const int _33299a = 2130772033;
+			
+			// aapt resource value: 0x7F010042
+			public const int _3649 = 2130772034;
+			
+			// aapt resource value: 0x7F010043
+			public const int _3673 = 2130772035;
+			
+			// aapt resource value: 0x7F010044
+			public const int _3705 = 2130772036;
+			
+			// aapt resource value: 0x7F010045
+			public const int _3706 = 2130772037;
+			
+			// aapt resource value: 0x7F010046
+			public const int _3707 = 2130772038;
+			
+			// aapt resource value: 0x7F010047
+			public const int _3708 = 2130772039;
+			
+			// aapt resource value: 0x7F010048
+			public const int _3713 = 2130772040;
+			
+			// aapt resource value: 0x7F010049
+			public const int _3737 = 2130772041;
+			
+			// aapt resource value: 0x7F010050
+			public const int _3749 = 2130772048;
+			
+			// aapt resource value: 0x7F010051
+			public const int _4019 = 2130772049;
+			
+			// aapt resource value: 0x7F010052
+			public const int _40490 = 2130772050;
+			
+			// aapt resource value: 0x7F010053
+			public const int _41239 = 2130772051;
+			
+			// aapt resource value: 0x7F010054
+			public const int _41669 = 2130772052;
+			
+			// aapt resource value: 0x7F010055
+			public const int _41678 = 2130772053;
+			
+			// aapt resource value: 0x7F010056
+			public const int _4185 = 2130772054;
+			
+			// aapt resource value: 0x7F010057
+			public const int _41897 = 2130772055;
+			
+			// aapt resource value: 0x7F010058
+			public const int _42003 = 2130772056;
+			
+			// aapt resource value: 0x7F010059
+			public const int _42610 = 2130772057;
+			
+			// aapt resource value: 0x7F010060
+			public const int _43093 = 2130772064;
+			
+			// aapt resource value: 0x7F010061
+			public const int _44294 = 2130772065;
+			
+			// aapt resource value: 0x7F010062
+			public const int _44309 = 2130772066;
+			
+			// aapt resource value: 0x7F010063
+			public const int _44809 = 2130772067;
+			
+			// aapt resource value: 0x7F010064
+			public const int _4519 = 2130772068;
+			
+			// aapt resource value: 0x7F010065
+			public const int _45590 = 2130772069;
+			
+			// aapt resource value: 0x7F010066
+			public const int _4716 = 2130772070;
+			
+			// aapt resource value: 0x7F010067
+			public const int _48989 = 2130772071;
+			
+			// aapt resource value: 0x7F010068
+			public const int _50951 = 2130772072;
+			
+			// aapt resource value: 0x7F010069
+			public const int _53550 = 2130772073;
+			
+			// aapt resource value: 0x7F010070
+			public const int _53992 = 2130772080;
+			
+			// aapt resource value: 0x7F010071
+			public const int _54271 = 2130772081;
+			
+			// aapt resource value: 0x7F010072
+			public const int _54821 = 2130772082;
+			
+			// aapt resource value: 0x7F010073
+			public const int _55013 = 2130772083;
+			
+			// aapt resource value: 0x7F010074
+			public const int _55615 = 2130772084;
+			
+			// aapt resource value: 0x7F010075
+			public const int _55805 = 2130772085;
+			
+			// aapt resource value: 0x7F010076
+			public const int _55806 = 2130772086;
+			
+			// aapt resource value: 0x7F010077
+			public const int _56145 = 2130772087;
+			
+			// aapt resource value: 0x7F010078
+			public const int _56908 = 2130772088;
+			
+			// aapt resource value: 0x7F010079
+			public const int _57519 = 2130772089;
+			
+			// aapt resource value: 0x7F010080
+			public const int _57585 = 2130772096;
+			
+			// aapt resource value: 0x7F010081
+			public const int _59426 = 2130772097;
+			
+			// aapt resource value: 0x7F010082
+			public const int _59443 = 2130772098;
+			
+			// aapt resource value: 0x7F010083
+			public const int _60483 = 2130772099;
+			
+			// aapt resource value: 0x7F010084
+			public const int _60484 = 2130772100;
+			
+			// aapt resource value: 0x7F010085
+			public const int _60485 = 2130772101;
+			
+			// aapt resource value: 0x7F010086
+			public const int _61070 = 2130772102;
+			
+			// aapt resource value: 0x7F010087
+			public const int _61071 = 2130772103;
+			
+			// aapt resource value: 0x7F010088
+			public const int _62462 = 2130772104;
+			
+			// aapt resource value: 0x7F010089
+			public const int _63869 = 2130772105;
+			
+			// aapt resource value: 0x7F010090
+			public const int _64178 = 2130772112;
+			
+			// aapt resource value: 0x7F010091
+			public const int _64179 = 2130772113;
+			
+			// aapt resource value: 0x7F010092
+			public const int _64391 = 2130772114;
+			
+			// aapt resource value: 0x7F010093
+			public const int _64392 = 2130772115;
+			
+			// aapt resource value: 0x7F010094
+			public const int _64393 = 2130772116;
+			
+			// aapt resource value: 0x7F010095
+			public const int _64681 = 2130772117;
+			
+			// aapt resource value: 0x7F010096
+			public const int _64682 = 2130772118;
+			
+			// aapt resource value: 0x7F010097
+			public const int _64683 = 2130772119;
+			
+			// aapt resource value: 0x7F010098
+			public const int _6536 = 2130772120;
+			
+			// aapt resource value: 0x7F010099
+			public const int _6558 = 2130772121;
+			
+			// aapt resource value: 0x7F010100
+			public const int _6575 = 2130772224;
+			
+			// aapt resource value: 0x7F010101
+			public const int _6587 = 2130772225;
+			
+			// aapt resource value: 0x7F010102
+			public const int _6589 = 2130772226;
+			
+			// aapt resource value: 0x7F010103
+			public const int _6628 = 2130772227;
+			
+			// aapt resource value: 0x7F010104
+			public const int _6629 = 2130772228;
+			
+			// aapt resource value: 0x7F010105
+			public const int _6632 = 2130772229;
+			
+			// aapt resource value: 0x7F010106
+			public const int _72156 = 2130772230;
+			
+			// aapt resource value: 0x7F010107
+			public const int _85544 = 2130772231;
+			
+			// aapt resource value: 0x7F010108
+			public const int _87080 = 2130772232;
+			
+			// aapt resource value: 0x7F010109
+			public const int _87082 = 2130772233;
+			
+			// aapt resource value: 0x7F010110
+			public const int _87083 = 2130772240;
+			
+			// aapt resource value: 0x7F010111
+			public const int _87086 = 2130772241;
+			
+			// aapt resource value: 0x7F010112
+			public const int _87408 = 2130772242;
+			
+			// aapt resource value: 0x7F010113
+			public const int _88323 = 2130772243;
+			
+			// aapt resource value: 0x7F010114
+			public const int _92907 = 2130772244;
+			
+			// aapt resource value: 0x7F010115
+			public const int _92911 = 2130772245;
+			
+			// aapt resource value: 0x7F010116
+			public const int _95646c01 = 2130772246;
+			
+			// aapt resource value: 0x7F010117
+			public const int _95648 = 2130772247;
+			
+			// aapt resource value: 0x7F010118
+			public const int _95650 = 2130772248;
+			
+			// aapt resource value: 0x7F010119
+			public const int _95652 = 2130772249;
+			
+			// aapt resource value: 0x7F010120
+			public const int _95654 = 2130772256;
+			
+			// aapt resource value: 0x7F010121
+			public const int _95656 = 2130772257;
+			
+			// aapt resource value: 0x7F010122
+			public const int _95658 = 2130772258;
+			
+			// aapt resource value: 0x7F010123
+			public const int _98347 = 2130772259;
+			
+			// aapt resource value: 0x7F010124
+			public const int _98568p02 = 2130772260;
+			
+			// aapt resource value: 0x7F010125
+			public const int _99008 = 2130772261;
+			
+			// aapt resource value: 0x7F010126
+			public const int _99009 = 2130772262;
+			
+			// aapt resource value: 0x7F010127
+			public const int _99010 = 2130772263;
+			
+			// aapt resource value: 0x7F010128
+			public const int _99380 = 2130772264;
+			
+			// aapt resource value: 0x7F010129
+			public const int _99455 = 2130772265;
+			
+			// aapt resource value: 0x7F010130
+			public const int _99773 = 2130772272;
+			
+			// aapt resource value: 0x7F010131
+			public const int _99948 = 2130772273;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

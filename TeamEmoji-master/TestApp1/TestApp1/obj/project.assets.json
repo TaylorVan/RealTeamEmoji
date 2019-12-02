@@ -789,11 +789,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roy\\source\\repos\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Roy\\source\\repos\\RealTeamEmoji-master2\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj",
       "projectName": "TestApp1",
-      "projectPath": "C:\\Users\\Roy\\source\\repos\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj",
+      "projectPath": "C:\\Users\\Roy\\source\\repos\\RealTeamEmoji-master2\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj",
       "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roy\\source\\repos\\TeamEmoji-master\\TestApp1\\TestApp1\\obj\\",
+      "outputPath": "C:\\Users\\Roy\\source\\repos\\RealTeamEmoji-master2\\TeamEmoji-master\\TestApp1\\TestApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
