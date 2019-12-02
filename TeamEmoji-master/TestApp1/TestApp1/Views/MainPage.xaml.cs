@@ -10,6 +10,7 @@ using Xamarin.Forms;
 using TestApp1.ViewModels;
 using Xam.Plugins.OnDeviceCustomVision;
 using Plugin.Media.Abstractions;
+using Xamarin.Essentials;
 
 namespace TestApp1
 {
@@ -18,6 +19,8 @@ namespace TestApp1
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
+        Boolean testing = false;
+
         public MainPage()
         {
 
@@ -31,6 +34,11 @@ namespace TestApp1
         //Get image from camera >> classify image >> Set piece in viewmodel >> Go to results
         private async void TakePhoto_Clicked(object sender, EventArgs e)
         {
+            //Skips the camera/gallery while testing
+            if (testing)
+            {
+                await Navigation.PushAsync(new ResultsPage());
+            }
 
             MediaFile file = await TakePhoto();
 
@@ -59,6 +67,11 @@ namespace TestApp1
         //Get image from gallery >> classify image >> Set piece in viewmodel >> Go to results
         private async void PickPhoto_Clicked(object sender, EventArgs e)
         {
+            //Skips the camera/gallery while testing
+            if (testing)
+            {
+                await Navigation.PushAsync(new ResultsPage());
+            }
 
             MediaFile file = await PickPhoto();
 
@@ -175,6 +188,10 @@ namespace TestApp1
             await Navigation.PushAsync(new MainMenu());
         }
 
+        private async void BookButton_Clicked(object sender, EventArgs e)
+        {
+            await Browser.OpenAsync(new Uri("https://www.amazon.ca/EV3-Brainy-Kids-MINDSTORMS-Robotics-ebook/dp/B0779M98B8/ref=sr_1_1?keywords=ev3+brainy+kids&qid=1575324613&sr=8-1"), BrowserLaunchMode.SystemPreferred);
 
+        }
     }
 }
