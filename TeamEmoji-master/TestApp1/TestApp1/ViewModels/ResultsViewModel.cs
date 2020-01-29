@@ -13,6 +13,7 @@ namespace TestApp1.ViewModels
         public string PartID { get; set; } = string.Empty;
         public string StoreLink { get; set; } = string.Empty;
 
+        public List<Piece> PiecesGuessed { get; set; }
         public Piece PieceGuessed { get; set; }
 
         public Boolean isLoading;

@@ -11,6 +11,7 @@ using TestApp1.ViewModels;
 using Xam.Plugins.OnDeviceCustomVision;
 using Plugin.Media.Abstractions;
 using Xamarin.Essentials;
+using TestApp1.Views;
 
 namespace TestApp1
 {
@@ -47,20 +48,20 @@ namespace TestApp1
 
             App.ResultsViewModel.IsLoading = true;
 
-            Piece piece = await ClassifyImage(file);
+            List<Piece> piece = await ClassifyImage(file);
             if (piece == null)
             {
-                App.ResultsViewModel.PieceGuessed = null;
+                App.ResultsViewModel.PiecesGuessed = null;
                 App.ResultsViewModel.PieceNotIdentified = true;
             }
             else
             {
-                App.ResultsViewModel.PieceGuessed = piece;
+                App.ResultsViewModel.PiecesGuessed = piece;
             }
 
             file.Dispose();
             App.ResultsViewModel.IsLoading = false;
-            await Navigation.PushAsync(new ResultsPage());
+            await Navigation.PushAsync(new TopThree());
         }
 
         //Event handler for the Pick Photo button
@@ -78,15 +79,15 @@ namespace TestApp1
             if (file == null)
                 return;
 
-            Piece piece = await ClassifyImage(file);
+            List<Piece> piece = await ClassifyImage(file);
             if(piece == null)
             {
-                App.ResultsViewModel.PieceGuessed = null;
+                App.ResultsViewModel.PiecesGuessed = null;
                 App.ResultsViewModel.PieceNotIdentified = true;
             }
             else
             {
-                App.ResultsViewModel.PieceGuessed = piece;
+                App.ResultsViewModel.PiecesGuessed = piece;
             }
 
             //stream = file.GetStream();
@@ -94,7 +95,7 @@ namespace TestApp1
 
             App.ResultsViewModel.IsLoading = false;
             //image.Source = ImageSource.FromStream(() => stream);
-            await Navigation.PushAsync(new ResultsPage());
+            await Navigation.PushAsync(new TopThree());
 
         }
 
@@ -159,7 +160,7 @@ namespace TestApp1
         //Get piece from neural network
         //Calls OnDiviceCustomVision's ClassifyImage function to get a list of parts that are then ordered
         //by probability. The most likely piece is returned
-        private async Task<Piece> ClassifyImage(MediaFile file)
+        private async Task<List<Piece>> ClassifyImage(MediaFile file)
         {
             App.ResultsViewModel.PieceNotIdentified = false;
 
@@ -177,9 +178,17 @@ namespace TestApp1
 
             var partId = tags.OrderByDescending(t => t.Probability).First().Tag;
             var db = App.PieceDatabase.GetAllPieces();
+            
+            List<Piece> tempList = new List<Piece>();
+            
+            for(int i = 0; i < 3; i++)
+            {
+                tempList.Add(db.Result.Find(t => t.PartNum == partId));
+                partId = tags.OrderByDescending(t => t.Probability).ElementAt(i+1).Tag;
+            }
 
 
-            return db.Result.Find(t => t.PartNum == partId);
+            return tempList;
         }
 
         //Event handler for the back button
