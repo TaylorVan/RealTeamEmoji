@@ -16,9 +16,6 @@ namespace TestApp1.Views
         {
             InitializeComponent();
 
-            //imageToIdentify.Source = "_" + App.ResultsViewModel.PieceGuessed.PartNum + ".jpg";
-            //imageToIdentify.IsVisible = true;
-
             imageOne.Source = "_" + App.ResultsViewModel.PiecesGuessed.ElementAt(0).PartNum + ".jpg";
             imageTwo.Source = "_" + App.ResultsViewModel.PiecesGuessed.ElementAt(1).PartNum + ".jpg";
             imageThree.Source = "_" + App.ResultsViewModel.PiecesGuessed.ElementAt(2).PartNum + ".jpg";
@@ -32,25 +29,28 @@ namespace TestApp1.Views
             imageThreeFrame.IsVisible = true;
         }
 
-        public async void OnImageOneClicked(object sender, EventArgs e)
+        async void OnImageOneClicked(object sender, EventArgs e)
         {
             App.ResultsViewModel.PieceGuessed = App.ResultsViewModel.PiecesGuessed.ElementAt(0);
-            //await Navigation.PopAsync();
             await Navigation.PushAsync(new ResultsPage());
         }
 
-        public async void OnImageTwoClicked(object sender, EventArgs e)
+        async void OnImageTwoClicked(object sender, EventArgs e)
         {
             App.ResultsViewModel.PieceGuessed = App.ResultsViewModel.PiecesGuessed.ElementAt(1);
-            //await Navigation.PopAsync();
             await Navigation.PushAsync(new ResultsPage());
         }
 
-        public async void OnImageThreeClicked(object sender, EventArgs e)
+        async void OnImageThreeClicked(object sender, EventArgs e)
         {
             App.ResultsViewModel.PieceGuessed = App.ResultsViewModel.PiecesGuessed.ElementAt(2);
-            //await Navigation.PopAsync();
             await Navigation.PushAsync(new ResultsPage());
+        }
+
+        async void OnButtonClicked(object sender, EventArgs args)
+        {
+            App.ResultsViewModel.isLoading = false;
+            await Navigation.PopAsync();
         }
     }
 }

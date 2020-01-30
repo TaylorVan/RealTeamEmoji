@@ -118,7 +118,7 @@ namespace TestApp1
         async void OnButtonClicked(object sender, EventArgs args)
         {
             App.ResultsViewModel.isLoading = false;
-            await Navigation.PushAsync(new MainPage());
+            await Navigation.PopAsync();
         }
 
     }
