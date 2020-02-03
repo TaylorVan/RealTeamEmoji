@@ -783,25 +783,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Taylor\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Matth\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Matth\\Source\\Repos\\TaylorVan\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj",
       "projectName": "TestApp1",
-      "projectPath": "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj",
-      "packagesPath": "C:\\Users\\Taylor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Taylor\\Documents\\GitHub\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\obj\\",
+      "projectPath": "C:\\Users\\Matth\\Source\\Repos\\TaylorVan\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj",
+      "packagesPath": "C:\\Users\\Matth\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Matth\\Source\\Repos\\TaylorVan\\RealTeamEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "D:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Taylor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Matth\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -854,10 +852,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

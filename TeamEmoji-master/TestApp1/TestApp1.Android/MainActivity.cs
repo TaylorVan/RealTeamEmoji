@@ -10,6 +10,7 @@ using Plugin.CurrentActivity;
 using Plugin.Media;
 using Xam.Plugins.OnDeviceCustomVision;
 using Android.Content.Res;
+using Android.Gms.Ads;
 
 namespace TestApp1.Droid
 {
@@ -30,6 +31,8 @@ namespace TestApp1.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             AndroidImageClassifier.Init("model.pb", "labels.txt");
             AssetManager assets = Assets;
+
+            MobileAds.Initialize(ApplicationContext, "ca-app-pub-3940256099942544~3347511713");
 
             //Creates database file if it doesn't exist in app storage
             CreateConnection.Open();
