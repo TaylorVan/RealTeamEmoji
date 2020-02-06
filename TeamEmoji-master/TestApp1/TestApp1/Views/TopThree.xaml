@@ -7,16 +7,16 @@
              x:Class="TestApp1.Views.TopThree">
     <ContentPage.Content>
         <ScrollView BackgroundColor="#e8ae68" VerticalScrollBarVisibility="Always">
-            <StackLayout BackgroundColor="#e8ae68" Spacing="3" Margin="10">
-                <Label Text="I've identified 3 possible pieces. Please select the pieces for more information" VerticalOptions="Center"/>
+            <StackLayout BackgroundColor="#e8ae68" Spacing="-60" Margin="3">
+                <Label Text="I've identified 3 possible pieces. Select a piece for more information" VerticalOptions="Center"/>
                 <Frame OutlineColor="Black" x:Name="imageOneFrame" HorizontalOptions="Center" VerticalOptions="Center" Padding="0" Scale="0.5">
-                    <ImageButton x:Name="imageOne" HorizontalOptions="Center"  Clicked="OnImageOneClicked"/>
+                    <ImageButton x:Name="imageOne" HorizontalOptions="Center"  Clicked="OnImageOneClicked" Source="_10928.jpg"/>
                 </Frame>
                 <Frame OutlineColor="Black" x:Name="imageTwoFrame" HorizontalOptions="Center" VerticalOptions="Center" Padding="0" Scale="0.5">
-                    <ImageButton x:Name="imageTwo" HorizontalOptions="Center"  Clicked="OnImageTwoClicked"/>
+                    <ImageButton x:Name="imageTwo" HorizontalOptions="Center"  Clicked="OnImageTwoClicked" Source="_10928.jpg"/>
                 </Frame>
                 <Frame OutlineColor="Black" x:Name="imageThreeFrame" HorizontalOptions="Center" VerticalOptions="Center" Padding="0" Scale="0.5">
-                    <ImageButton x:Name="imageThree" HorizontalOptions="Center"  Clicked="OnImageThreeClicked"/>
+                    <ImageButton x:Name="imageThree" HorizontalOptions="Center"  Clicked="OnImageThreeClicked" Source="_10928.jpg"/>
                 </Frame>
                 <Button Text="Return" Clicked="OnButtonClicked" Margin="1" HorizontalOptions="End" BackgroundColor="#db5a42"/>
             </StackLayout>

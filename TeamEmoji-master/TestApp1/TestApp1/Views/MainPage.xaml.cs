@@ -159,7 +159,7 @@ namespace TestApp1
 
         //Get piece from neural network
         //Calls OnDiviceCustomVision's ClassifyImage function to get a list of parts that are then ordered
-        //by probability. The most likely piece is returned
+        //by probability. The most likely piece is 
         private async Task<List<Piece>> ClassifyImage(MediaFile file)
         {
             App.ResultsViewModel.PieceNotIdentified = false;
@@ -168,10 +168,9 @@ namespace TestApp1
                 return null;
 
             var tags = await CrossImageClassifier.Current.ClassifyImage(file.GetStream());
-            App.ResultsViewModel.Probability = tags.OrderByDescending(t => t.Probability).First().Probability;
 
             //Check if the highest probability meets the minimum threshold
-            if (App.ResultsViewModel.Probability < 0.6)
+            if (tags.OrderByDescending(t => t.Probability).First().Probability < 0.6)
             {
                 return null;
             }
@@ -180,14 +179,17 @@ namespace TestApp1
             var db = App.PieceDatabase.GetAllPieces();
             
             List<Piece> tempList = new List<Piece>();
+            List<double> tempProbabilityList = new List<double>();
             
             for(int i = 0; i < 3; i++)
             {
+                //Store part and associated probability 
                 tempList.Add(db.Result.Find(t => t.PartNum == partId));
+                tempProbabilityList.Add(tags.OrderByDescending(t => t.Probability).ElementAt(i).Probability);
+                //Change value of partId to next part
                 partId = tags.OrderByDescending(t => t.Probability).ElementAt(i+1).Tag;
             }
-
-
+            App.ResultsViewModel.Probabilities = tempProbabilityList;
             return tempList;
         }
 

@@ -32,18 +32,21 @@ namespace TestApp1.Views
         async void OnImageOneClicked(object sender, EventArgs e)
         {
             App.ResultsViewModel.PieceGuessed = App.ResultsViewModel.PiecesGuessed.ElementAt(0);
+            App.ResultsViewModel.PartSelected = 0;
             await Navigation.PushAsync(new ResultsPage());
         }
 
         async void OnImageTwoClicked(object sender, EventArgs e)
         {
             App.ResultsViewModel.PieceGuessed = App.ResultsViewModel.PiecesGuessed.ElementAt(1);
+            App.ResultsViewModel.PartSelected = 1;
             await Navigation.PushAsync(new ResultsPage());
         }
 
         async void OnImageThreeClicked(object sender, EventArgs e)
         {
             App.ResultsViewModel.PieceGuessed = App.ResultsViewModel.PiecesGuessed.ElementAt(2);
+            App.ResultsViewModel.PartSelected = 2;
             await Navigation.PushAsync(new ResultsPage());
         }
 

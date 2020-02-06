@@ -14,11 +14,13 @@ namespace TestApp1.ViewModels
         public string StoreLink { get; set; } = string.Empty;
 
         public List<Piece> PiecesGuessed { get; set; }
+        public List<double> Probabilities { get; set; }
         public Piece PieceGuessed { get; set; }
+
+        public int PartSelected;
 
         public Boolean isLoading;
         public Boolean PieceNotIdentified;
-        public double Probability;
 
         public event PropertyChangedEventHandler PropertyChanged;
 

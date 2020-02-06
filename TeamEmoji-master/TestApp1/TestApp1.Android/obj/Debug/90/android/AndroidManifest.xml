@@ -12,14 +12,14 @@
     <provider android:name="android.support.v4.content.FileProvider" android:authorities="com.companyname.testapp1.fileprovider" android:exported="false" android:grantUriPermissions="true">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
     </provider>
-    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/logo" android:label="EV3 Identifier" android:theme="@style/MainTheme" android:name="md5c1042bf69149c94f7daac644070e7c0a.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/logo" android:label="EV3 Identifier" android:theme="@style/MainTheme" android:name="crc6494bd4fa94026555a.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:configChanges="orientation|screenSize" android:name="md54cd65ac53ae710bff80022afc423e0f3.MediaPickerActivity" />
-    <receiver android:enabled="true" android:exported="false" android:name="md51558244f76c53b6aeda52c8a337f2c37.PowerSaveModeBroadcastReceiver" />
+    <activity android:configChanges="orientation|screenSize" android:name="crc646957603ea1820544.MediaPickerActivity" />
+    <receiver android:enabled="true" android:exported="false" android:name="crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.companyname.testapp1.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

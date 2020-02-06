@@ -104,7 +104,7 @@ namespace TestApp1
             {
                 displayLink.IsVisible = false;
             }
-            var percent = App.ResultsViewModel.Probability * 100;
+            var percent = App.ResultsViewModel.Probabilities.ElementAt(App.ResultsViewModel.PartSelected) * 100;
 
             displayProbability.Text = "Probability: " + percent.ToString("N1") + "%";
 
