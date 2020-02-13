@@ -204,5 +204,10 @@ namespace TestApp1
             await Browser.OpenAsync(new Uri("https://www.amazon.ca/EV3-Brainy-Kids-MINDSTORMS-Robotics-ebook/dp/B0779M98B8/ref=sr_1_1?keywords=ev3+brainy+kids&qid=1575324613&sr=8-1"), BrowserLaunchMode.SystemPreferred);
 
         }
+
+        private async void DatabaseTest_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new DatabaseTest());
+        }
     }
 }

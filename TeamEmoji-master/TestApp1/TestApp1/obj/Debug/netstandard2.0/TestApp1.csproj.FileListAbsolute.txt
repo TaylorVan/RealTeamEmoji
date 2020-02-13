@@ -33,7 +33,9 @@ C:\Users\scott\OneDrive\Documents\Lego Piece Identifier\TeamEmoji-master\TestApp
 C:\Users\scott\OneDrive\Documents\Lego Piece Identifier\TeamEmoji-master\TestApp1\TestApp1\bin\Debug\netstandard2.0\TestApp1.dll
 C:\Users\scott\OneDrive\Documents\Lego Piece Identifier\TeamEmoji-master\TestApp1\TestApp1\bin\Debug\netstandard2.0\ref\TestApp1.dll
 C:\Users\scott\OneDrive\Documents\Lego Piece Identifier\TeamEmoji-master\TestApp1\TestApp1\bin\Debug\netstandard2.0\TestApp1.pdb
+C:\Users\scott\OneDrive\Documents\Lego Piece Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.csprojAssemblyReference.cache
 C:\Users\scott\OneDrive\Documents\Lego Piece Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\scott\OneDrive\Documents\Lego Piece Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\Views\DatabaseTest.xaml.g.cs
 C:\Users\scott\OneDrive\Documents\Lego Piece Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\Views\MainMenu.xaml.g.cs
 C:\Users\scott\OneDrive\Documents\Lego Piece Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 C:\Users\scott\OneDrive\Documents\Lego Piece Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\Views\ResultsPage.xaml.g.cs

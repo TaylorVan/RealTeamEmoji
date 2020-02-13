@@ -27,6 +27,11 @@ namespace TestApp1.Views
             imageOneFrame.IsVisible = true;
             imageTwoFrame.IsVisible = true;
             imageThreeFrame.IsVisible = true;
+
+            probability1.Text = (App.ResultsViewModel.Probabilities.ElementAt(0) * 100).ToString("N1") + "%";
+            probability2.Text = (App.ResultsViewModel.Probabilities.ElementAt(1) * 100).ToString("N1") + "%";
+            probability3.Text = (App.ResultsViewModel.Probabilities.ElementAt(2) * 100).ToString("N1") + "%";
+
         }
 
         async void OnImageOneClicked(object sender, EventArgs e)
