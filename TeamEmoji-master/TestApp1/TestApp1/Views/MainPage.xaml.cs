@@ -11,6 +11,7 @@ using TestApp1.ViewModels;
 using Xam.Plugins.OnDeviceCustomVision;
 using Plugin.Media.Abstractions;
 using Xamarin.Essentials;
+using TestApp1.Views;
 
 namespace TestApp1
 {
@@ -19,7 +20,7 @@ namespace TestApp1
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
-        Boolean testing = false;
+        readonly bool testing = false;
 
         public MainPage()
         {
@@ -37,7 +38,10 @@ namespace TestApp1
             //Skips the camera/gallery while testing
             if (testing)
             {
+                Piece pieceTest = GetPieceById("61071");
+                App.ResultsViewModel.PieceGuessed = pieceTest;
                 await Navigation.PushAsync(new ResultsPage());
+                return;
             }
 
             MediaFile file = await TakePhoto();
@@ -47,20 +51,20 @@ namespace TestApp1
 
             App.ResultsViewModel.IsLoading = true;
 
-            Piece piece = await ClassifyImage(file);
+            List<Piece> piece = await ClassifyImage(file);
             if (piece == null)
             {
-                App.ResultsViewModel.PieceGuessed = null;
+                App.ResultsViewModel.PiecesGuessed = null;
                 App.ResultsViewModel.PieceNotIdentified = true;
             }
             else
             {
-                App.ResultsViewModel.PieceGuessed = piece;
+                App.ResultsViewModel.PiecesGuessed = piece;
             }
 
             file.Dispose();
             App.ResultsViewModel.IsLoading = false;
-            await Navigation.PushAsync(new ResultsPage());
+            await Navigation.PushAsync(new TopThree());
         }
 
         //Event handler for the Pick Photo button
@@ -78,15 +82,15 @@ namespace TestApp1
             if (file == null)
                 return;
 
-            Piece piece = await ClassifyImage(file);
-            if(piece == null)
+            List<Piece> piece = await ClassifyImage(file);
+            if (piece == null)
             {
-                App.ResultsViewModel.PieceGuessed = null;
+                App.ResultsViewModel.PiecesGuessed = null;
                 App.ResultsViewModel.PieceNotIdentified = true;
             }
             else
             {
-                App.ResultsViewModel.PieceGuessed = piece;
+                App.ResultsViewModel.PiecesGuessed = piece;
             }
 
             //stream = file.GetStream();
@@ -94,7 +98,7 @@ namespace TestApp1
 
             App.ResultsViewModel.IsLoading = false;
             //image.Source = ImageSource.FromStream(() => stream);
-            await Navigation.PushAsync(new ResultsPage());
+            await Navigation.PushAsync(new TopThree());
 
         }
 
@@ -115,7 +119,7 @@ namespace TestApp1
                 }
                 try
                 {
-                    App.ResultsViewModel.OverrideBackButton = true;
+                    //App.ResultsViewModel.OverrideBackButton = true;
                     App.ResultsViewModel.IsLoading = true;
                     file = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
                     {
@@ -159,7 +163,7 @@ namespace TestApp1
         //Get piece from neural network
         //Calls OnDiviceCustomVision's ClassifyImage function to get a list of parts that are then ordered
         //by probability. The most likely piece is returned
-        private async Task<Piece> ClassifyImage(MediaFile file)
+        private async Task<List<Piece>> ClassifyImage(MediaFile file)
         {
             App.ResultsViewModel.PieceNotIdentified = false;
 
@@ -167,19 +171,37 @@ namespace TestApp1
                 return null;
 
             var tags = await CrossImageClassifier.Current.ClassifyImage(file.GetStream());
-            App.ResultsViewModel.Probability = tags.OrderByDescending(t => t.Probability).First().Probability;
 
             //Check if the highest probability meets the minimum threshold
-            if (App.ResultsViewModel.Probability < 0.6)
+            /*
+            if (tags.OrderByDescending(t => t.Probability).First().Probability < 0.6)
             {
                 return null;
-            }
+            }*/
 
             var partId = tags.OrderByDescending(t => t.Probability).First().Tag;
             var db = App.PieceDatabase.GetAllPieces();
+            
+            List<Piece> tempList = new List<Piece>();
+            List<double> tempProbabilityList = new List<double>();
+            
+            for(int i = 0; i < 3; i++)
+            {
+                //Store part and associated probability 
+                tempList.Add(db.Result.Find(t => t.PartNum == partId));
+                tempProbabilityList.Add(tags.OrderByDescending(t => t.Probability).ElementAt(i).Probability);
+                //Change value of partId to next part
+                partId = tags.OrderByDescending(t => t.Probability).ElementAt(i+1).Tag;
+            }
+            App.ResultsViewModel.Probabilities = tempProbabilityList;
+            return tempList;
+        }
 
+        private Piece GetPieceById(string id)
+        {
+            var db = App.PieceDatabase.GetAllPieces();
 
-            return db.Result.Find(t => t.PartNum == partId);
+            return db.Result.Find(t => t.PartNum == id);
         }
 
         //Event handler for the back button
@@ -193,5 +215,32 @@ namespace TestApp1
             await Browser.OpenAsync(new Uri("https://www.amazon.ca/EV3-Brainy-Kids-MINDSTORMS-Robotics-ebook/dp/B0779M98B8/ref=sr_1_1?keywords=ev3+brainy+kids&qid=1575324613&sr=8-1"), BrowserLaunchMode.SystemPreferred);
 
         }
+
+        //Test function for checking if piece object is correctly passing
+        public Piece GetPieceTest()
+        {
+            Piece piece = new Piece();
+            piece.Catagory = "Beam";
+            piece.PartName = "7 Beam";
+            piece.PartNum = "1234";
+            piece.Url = "Test.com";
+            return piece;
+        }
+
+
+        //Function to check the probability of the neural network
+        public bool ProbabilityTest(double probability)
+        {
+            if (probability > 0.6)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
     }
 }

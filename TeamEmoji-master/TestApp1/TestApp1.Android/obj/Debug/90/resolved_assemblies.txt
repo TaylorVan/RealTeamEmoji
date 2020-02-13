@@ -62,6 +62,13 @@ C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\android\assets\Xamarin.Forms.Platform.dll
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\android\assets\Xamarin.Forms.Xaml.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\android\assets\Xamarin.GooglePlayServices.Ads.Base.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\android\assets\Xamarin.GooglePlayServices.Ads.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\android\assets\Xamarin.GooglePlayServices.Ads.Identifier.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\android\assets\Xamarin.GooglePlayServices.Ads.Lite.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\android\assets\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\android\assets\Xamarin.GooglePlayServices.Measurement.Base.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\android\assets\Xamarin.GooglePlayServices.Measurement.Sdk.Api.dll
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\android\assets\System.Net.Http.dll
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\android\assets\System.Drawing.Common.dll
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\android\assets\System.Runtime.Serialization.dll

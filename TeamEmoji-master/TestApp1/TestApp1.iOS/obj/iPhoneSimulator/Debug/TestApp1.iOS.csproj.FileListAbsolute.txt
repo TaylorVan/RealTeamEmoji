@@ -1,66 +1,106 @@
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\TestApp1.iOS.exe
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\TestApp1.iOS.pdb
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_green.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.core.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.provider.sqlite3.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Plugin.Media.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xam.Plugins.OnDeviceCustomVision.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\pt-br\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\TestApp1.dll
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\TestApp1.pdb
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\optimized\
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\TestApp1.iOS.csprojAssemblyReference.cache
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\TestApp1.iOS.csproj.CopyComplete
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\TestApp1.iOS.exe
-C:\Users\scott\OneDrive\Documents\Lego Parts Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\TestApp1.iOS.pdb
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\TestApp1.iOS.exe
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\TestApp1.iOS.pdb
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.core.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.provider.sqlite3.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Plugin.Media.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xam.Plugins.OnDeviceCustomVision.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\pt-br\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\TestApp1.dll
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\TestApp1.pdb
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Contents.json.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon1024.png.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon180.png.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon167.png.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon152.png.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon120.png.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon87.png.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon80.png.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon76.png.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon60.png.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon58.png.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon40.png.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon29.png.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon20.png.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\TestApp1.iOS.csprojAssemblyReference.cache
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\TestApp1.iOS.csproj.CoreCompileInputs.cache
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\TestApp1.iOS.csproj.CopyComplete
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\TestApp1.iOS.exe
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\TestApp1.iOS.pdb
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Plugin.Permissions.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLite-net.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLitePCLRaw.batteries_green.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLitePCLRaw.batteries_v2.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLitePCLRaw.core.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLitePCLRaw.provider.sqlite3.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Plugin.Media.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xam.Plugins.OnDeviceCustomVision.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Essentials.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Essentials.pdb.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Core.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Core.pdb.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.pdb.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Xaml.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Xaml.pdb.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.resources.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\TestApp1.dll.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\TestApp1.pdb.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.dll.mdb.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\TestApp1.iOS.exe.mdb.ReferenceCopyLocalPaths.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\TestApp1.iOS.pdb.DebugSymbolsProjectOutputGroupOutput.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Entitlements.plist.NoneOutput.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Info.plist.NoneOutput.stamp

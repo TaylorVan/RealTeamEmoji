@@ -66,6 +66,10 @@
               "target": "Package",
               "version": "[4.2.0.709249, )"
             },
+            "Xamarin.GooglePlayServices.Ads": {
+              "target": "Package",
+              "version": "[71.1720.1, )"
+            },
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.6.292, )"

@@ -42,6 +42,10 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[4.0.1.5, )"
+            },
             "Xam.Plugins.OnDeviceCustomVision": {
               "target": "Package",
               "version": "[2.2.2, )"

@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:local="clr-namespace:TestApp1.Converters"
+             xmlns:ad="clr-namespace:TestApp1.Controls;assembly=TestApp1"
              mc:Ignorable="d"
              x:Class="TestApp1.ResultsPage"
              NavigationPage.HasNavigationBar="false">
@@ -53,5 +54,6 @@
         <StackLayout BackgroundColor="#e8ae68">
             <Button Text="Return" Clicked="OnButtonClicked" Margin="1" HorizontalOptions="End" BackgroundColor="#db5a42"/>
         </StackLayout>
+        <ad:AdviewController HeightRequest="50" WidthRequest="320"></ad:AdviewController>
     </StackLayout>
 </ContentPage>

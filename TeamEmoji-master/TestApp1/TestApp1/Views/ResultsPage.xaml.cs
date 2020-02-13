@@ -21,7 +21,7 @@ namespace TestApp1
         public ResultsPage()
         {
             InitializeComponent();
-            BindingContext =  App.ResultsViewModel;
+            BindingContext = App.ResultsViewModel;
             App.ResultsViewModel.isLoading = false;
 
             if (App.ResultsViewModel.PieceNotIdentified == false)
@@ -104,7 +104,7 @@ namespace TestApp1
             {
                 displayLink.IsVisible = false;
             }
-            var percent = App.ResultsViewModel.Probability * 100;
+            var percent = App.ResultsViewModel.Probabilities.ElementAt(App.ResultsViewModel.PartSelected) * 100;
 
             displayProbability.Text = "Probability: " + percent.ToString("N1") + "%";
 
@@ -118,7 +118,7 @@ namespace TestApp1
         async void OnButtonClicked(object sender, EventArgs args)
         {
             App.ResultsViewModel.isLoading = false;
-            await Navigation.PushAsync(new MainPage());
+            await Navigation.PopAsync();
         }
 
     }

@@ -8,10 +8,6 @@ namespace TestApp1.ViewModels
 {
     public class ResultsViewModel: INotifyPropertyChanged
     {
-        public string Name { get; set; } = string.Empty;
-        public string Group { get; set; } = string.Empty;
-        public string PartID { get; set; } = string.Empty;
-        public string StoreLink { get; set; } = string.Empty;
 
         public Piece PieceGuessed { get; set; }
 
@@ -19,10 +15,14 @@ namespace TestApp1.ViewModels
         public Boolean PieceNotIdentified;
         public double Probability;
 
+        public int PartSelected;
+        public List<Piece> PiecesGuessed { get; set; }
+        public List<double> Probabilities { get; set; }
         public event PropertyChangedEventHandler PropertyChanged;
 
 
         public Boolean OverrideBackButton { get; set; }
+        
 
         public Boolean IsLoading
         {

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TestApp1.Views.TopThree">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="#e8ae68" VerticalScrollBarVisibility="Always">
+            <StackLayout BackgroundColor="#e8ae68" Spacing="-60" Margin="3">
+                <Label Text="I've identified 3 possible pieces. Select a piece for more information" VerticalOptions="Center"/>
+                <Frame OutlineColor="Black" x:Name="imageOneFrame" HorizontalOptions="Center" VerticalOptions="Center" Padding="0" Scale="0.5">
+                    <ImageButton x:Name="imageOne" HorizontalOptions="Center"  Clicked="OnImageOneClicked" Source="_10928.jpg"/>
+                </Frame>
+                <Frame OutlineColor="Black" x:Name="imageTwoFrame" HorizontalOptions="Center" VerticalOptions="Center" Padding="0" Scale="0.5">
+                    <ImageButton x:Name="imageTwo" HorizontalOptions="Center"  Clicked="OnImageTwoClicked" Source="_10928.jpg"/>
+                </Frame>
+                <Frame OutlineColor="Black" x:Name="imageThreeFrame" HorizontalOptions="Center" VerticalOptions="Center" Padding="0" Scale="0.5">
+                    <ImageButton x:Name="imageThree" HorizontalOptions="Center"  Clicked="OnImageThreeClicked" Source="_10928.jpg"/>
+                </Frame>
+                <Button Text="Return" Clicked="OnButtonClicked" Margin="1" HorizontalOptions="End" BackgroundColor="#db5a42"/>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>
