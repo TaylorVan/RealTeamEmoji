@@ -12,7 +12,7 @@
         <ScrollView>
             <StackLayout Spacing="0" BackgroundColor="#ffd275">
                 <BoxView Color="#ffd275" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
-                <Image x:Name="logo" Source="logo.png" BackgroundColor="#ffd275" HorizontalOptions="FillAndExpand" />
+                <Image x:Name="logo" Source="Logo.png" BackgroundColor="#ffd275" HorizontalOptions="FillAndExpand" />
                 <Label Text="EV3 Identifier" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="#ffd275"/>
                 <BoxView Color="#ffd275" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
                 <Button x:Name="enterButton" Text="Enter" HorizontalOptions="Center" BackgroundColor="#db5a42"/>

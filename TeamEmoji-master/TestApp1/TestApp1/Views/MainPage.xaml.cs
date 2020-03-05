@@ -43,6 +43,7 @@ namespace TestApp1
                 await Navigation.PushAsync(new ResultsPage());
                 return;
             }
+            
 
             MediaFile file = await TakePhoto();
 
@@ -76,8 +77,10 @@ namespace TestApp1
             {
                 await Navigation.PushAsync(new ResultsPage());
             }
+            MediaFile file;
 
-            MediaFile file = await PickPhoto();
+            //file = await PickPhoto();
+            file = PickPhoto();
 
             if (file == null)
                 return;
@@ -110,7 +113,8 @@ namespace TestApp1
         {
             MediaFile file = null;
 
-            await Task.Run(async () =>
+            //await Task.Run(async () =>
+            Device.BeginInvokeOnMainThread(async () =>
             {
                 if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
                 {
@@ -136,27 +140,31 @@ namespace TestApp1
 
         //Runs Xamarin.Plugins.Media PickPhotoAsync method to get a photo, of type MediaFile, from the gallery
         //Returns a Task with result type of MediaFile image or NULL if image failed
-        private async Task<MediaFile> PickPhoto()
+        //private async Task<MediaFile> PickPhoto()
+        private MediaFile PickPhoto()
         {
             MediaFile file = null;
 
-            await Task.Run(async () =>
-            {
-
-                if (!CrossMedia.Current.IsPickPhotoSupported)
+            //await Task.Run(async () =>
+            //{
+                Device.BeginInvokeOnMainThread(async () =>
                 {
-                    await DisplayAlert("Photos Not Supported", ":( Permission not granted to photos.", "OK");
-                    return;
-                }
-                try
-                {
-                    //Stream stream = null;
-                    App.ResultsViewModel.IsLoading = true;
-                    file = await CrossMedia.Current.PickPhotoAsync().ConfigureAwait(true);
-                }
-                catch {}
+                    if (!CrossMedia.Current.IsPickPhotoSupported)
+                    {
+                        await DisplayAlert("Photos Not Supported", ":( Permission not granted to photos.", "OK");
+                        return;
+                    }
+                    try
+                    {
+                        //Stream stream = null;
+                        App.ResultsViewModel.IsLoading = true;
+                        file = await CrossMedia.Current.PickPhotoAsync().ConfigureAwait(true);
+                    }
+                    catch { }
 
-            });
+                });
+
+           // });
             return file;
         }
 
@@ -219,11 +227,13 @@ namespace TestApp1
         //Test function for checking if piece object is correctly passing
         public Piece GetPieceTest()
         {
-            Piece piece = new Piece();
-            piece.Catagory = "Beam";
-            piece.PartName = "7 Beam";
-            piece.PartNum = "1234";
-            piece.Url = "Test.com";
+            Piece piece = new Piece
+            {
+                Catagory = "Beam",
+                PartName = "7 Beam",
+                PartNum = "1234",
+                Url = "Test.com"
+            };
             return piece;
         }
 

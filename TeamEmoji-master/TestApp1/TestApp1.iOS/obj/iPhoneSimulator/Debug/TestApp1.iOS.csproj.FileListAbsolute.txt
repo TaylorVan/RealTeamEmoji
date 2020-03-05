@@ -57,6 +57,9 @@ C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Contents.json.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Logo.png.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Logo1.png.ResolveUTIs.stamp
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Logo2.png.ResolveUTIs.stamp
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon1024.png.ResolveUTIs.stamp
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon180.png.ResolveUTIs.stamp
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon167.png.ResolveUTIs.stamp
@@ -72,6 +75,7 @@ C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\Icon20.png.ResolveUTIs.stamp
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\optimized\Logo.png
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\optimized\
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\TestApp1.iOS.csprojAssemblyReference.cache
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\TestApp1.iOS.csproj.CoreCompileInputs.cache

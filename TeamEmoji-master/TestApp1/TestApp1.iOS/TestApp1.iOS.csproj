@@ -67,6 +67,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\Images.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Logo.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Logo.imageset\Logo.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Logo.imageset\Logo1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Logo.imageset\Logo2.png">
+      <Visible>false</Visible>
+    </ImageAsset>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <Visible>false</Visible>
@@ -138,5 +153,8 @@
       <Project>{F1B2EA9E-3DAF-43D9-B232-D86B04B830B8}</Project>
       <Name>TestApp1</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Logo.png" />
   </ItemGroup>
 </Project>

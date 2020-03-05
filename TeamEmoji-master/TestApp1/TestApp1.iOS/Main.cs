@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using Xamarin.Essentials;
 
 using Foundation;
 using UIKit;
@@ -15,6 +17,7 @@ namespace TestApp1.iOS
             // if you want to use a different Application Delegate class from "AppDelegate"
             // you can specify it here.
             UIApplication.Main(args, null, "AppDelegate");
+            
         }
     }
 }

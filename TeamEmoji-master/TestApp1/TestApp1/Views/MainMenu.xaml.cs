@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +15,11 @@ namespace TestApp1
         public MainMenu()
         {
             InitializeComponent();
+            if (Device.RuntimePlatform == Device.iOS)
+            {
+                enterButton.HorizontalOptions = LayoutOptions.CenterAndExpand;
+                //logo.Source = ImageSource.FromResource("TestApp1.iOS.Assets.Logo.png");
+            }
 
             //Button navigation
             enterButton.Clicked += async (sender, args) =>
