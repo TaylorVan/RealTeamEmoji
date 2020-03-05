@@ -1,3 +1,4 @@
+C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\lego_parts.db3
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\TestApp1.iOS.exe
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\TestApp1.iOS.pdb
 C:\Users\Taylor\Documents\GitHub\RealTeamEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.dll

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
 
 using Foundation;
 using UIKit;
@@ -24,6 +25,19 @@ namespace TestApp1.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
+            var dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "lego_parts.db3");
+            var appDir = NSBundle.MainBundle.ResourcePath;
+            var seedFile = Path.Combine(appDir, "lego_parts.db3");
+
+            if (!File.Exists(dbPath))
+            {
+                File.Copy(seedFile, dbPath);
+            }
+            else
+            {
+                Console.WriteLine("Database already exists on device");
+            }
 
             return base.FinishedLaunching(app, options);
         }
