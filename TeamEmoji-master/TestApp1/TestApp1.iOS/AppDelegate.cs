@@ -29,13 +29,18 @@ namespace TestApp1.iOS
             var dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "lego_parts.db3");
             var appDir = NSBundle.MainBundle.ResourcePath;
             var seedFile = Path.Combine(appDir, "lego_parts.db3");
-            if (!File.Exists(dbPath) && File.Exists(seedFile))
+            
+            if(!File.Exists(dbPath))
             {
                 File.Copy(seedFile, dbPath);
-            } else
-            {
-                Console.WriteLine("Database file already exists");
             }
+            else
+            {
+                Console.WriteLine("Database already exists on device");
+            }
+
+            
+            
                 
             return base.FinishedLaunching(app, options);
         }
