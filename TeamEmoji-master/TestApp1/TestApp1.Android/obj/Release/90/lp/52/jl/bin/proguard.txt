@@ -1,0 +1,17 @@
+-keep public class com.google.android.gms.ads.internal.ClientApi {
+  <init>();
+}
+-keep public class com.google.android.gms.ads.internal.ClientApi2 {
+  <init>();
+}
+
+# We keep all fields for every generated proto file as the runtime uses
+# reflection over them that ProGuard cannot detect. Without this keep
+# rule, fields may be removed that would cause runtime failures.
+-keepclassmembers class * extends com.google.android.gms.internal.ads.zzdoa {
+  <fields>;
+}
+
+# Auto-generated proguard rule with obfuscated symbol
+-dontwarn com.google.android.gms.internal.ads.zzaxz
+
