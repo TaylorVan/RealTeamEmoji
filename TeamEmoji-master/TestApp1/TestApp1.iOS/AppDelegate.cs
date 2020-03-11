@@ -5,6 +5,7 @@ using System.IO;
 
 using Foundation;
 using UIKit;
+using Xam.Plugins.OnDeviceCustomVision;
 
 namespace TestApp1.iOS
 {
@@ -38,6 +39,21 @@ namespace TestApp1.iOS
             {
                 Console.WriteLine("Database already exists on device");
             }
+
+
+            var modelPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "IphoneTestModel.mlmodel");
+            seedFile = Path.Combine(appDir, "IphoneTestModel.mlmodel");
+
+            if (!File.Exists(modelPath))
+            {
+                File.Copy(seedFile, modelPath);
+            }
+            else
+            {
+                Console.WriteLine("Model already exists on device");
+            }
+
+            iOSImageClassifier.Init("IphoneTestModel");
 
             return base.FinishedLaunching(app, options);
         }
