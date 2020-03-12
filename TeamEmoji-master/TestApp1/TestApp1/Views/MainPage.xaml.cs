@@ -77,13 +77,19 @@ namespace TestApp1
             {
                 await Navigation.PushAsync(new ResultsPage());
             }
-            MediaFile file;
+            MediaFile file = null;
 
-            //file = await PickPhoto();
-            file = PickPhoto();
+            //Device.BeginInvokeOnMainThread(async () =>
+            //{
+                file = await PickPhoto();
+            //});
 
             if (file == null)
+            {
+                App.ResultsViewModel.isLoading = false;
+                Console.WriteLine("Failed to pick image");
                 return;
+            }
 
             List<Piece> piece = await ClassifyImage(file);
             if (piece == null)
@@ -114,12 +120,12 @@ namespace TestApp1
             MediaFile file = null;
 
             //await Task.Run(async () =>
-            Device.BeginInvokeOnMainThread(async () =>
-            {
+            //Device.BeginInvokeOnMainThread(async () =>
+            //{
                 if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
                 {
                     await DisplayAlert("No Camera", ":( No camera avaialble. Sorry", "OK");
-                    return;
+                    return null;
                 }
                 try
                 {
@@ -133,7 +139,7 @@ namespace TestApp1
                     });
                 }
                 catch {}
-            });
+            //});
 
             return file;
         }
@@ -141,18 +147,16 @@ namespace TestApp1
         //Runs Xamarin.Plugins.Media PickPhotoAsync method to get a photo, of type MediaFile, from the gallery
         //Returns a Task with result type of MediaFile image or NULL if image failed
         //private async Task<MediaFile> PickPhoto()
-        private MediaFile PickPhoto()
+        private async Task<MediaFile> PickPhoto()
         {
             MediaFile file = null;
+            Console.WriteLine("Lets pick this photo");
 
-            //await Task.Run(async () =>
-            //{
-                Device.BeginInvokeOnMainThread(async () =>
-                {
+
                     if (!CrossMedia.Current.IsPickPhotoSupported)
                     {
                         await DisplayAlert("Photos Not Supported", ":( Permission not granted to photos.", "OK");
-                        return;
+                        return null;
                     }
                     try
                     {
@@ -162,9 +166,7 @@ namespace TestApp1
                     }
                     catch { }
 
-                });
 
-           // });
             return file;
         }
 
