@@ -4,10 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TestApp1.Views.TopThree">
+             x:Class="TestApp1.Views.TopThree"
+             BackgroundImageSource="LegoBackground.png">
     <ContentPage.Content>
-        <ScrollView BackgroundColor="#e8ae68" VerticalScrollBarVisibility="Always">
-            <StackLayout BackgroundColor="#e8ae68" Spacing="-60" Margin="3">
+        <ScrollView VerticalScrollBarVisibility="Always">
+            <StackLayout Spacing="-60" Margin="3">
                 <Label Text="I've identified 3 possible pieces. Select a piece for more information" VerticalOptions="Center"/>
                 <Frame OutlineColor="Black" x:Name="imageOneFrame" HorizontalOptions="Center" VerticalOptions="Center" Padding="0" Scale="0.5">
                     <ImageButton x:Name="imageOne" HorizontalOptions="Center"  Clicked="OnImageOneClicked" Source="_10928.jpg"/>

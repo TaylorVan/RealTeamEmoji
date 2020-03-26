@@ -6,17 +6,20 @@
              xmlns:ad="clr-namespace:TestApp1.Controls;assembly=TestApp1"
              mc:Ignorable="d"
              x:Class="TestApp1.MainMenu"
-             NavigationPage.HasNavigationBar="false">
+             NavigationPage.HasNavigationBar="false"
+             BackgroundImageSource="LegoBackground.png">
     
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Spacing="0" BackgroundColor="#ffd275">
-                <BoxView Color="#ffd275" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
-                <Image x:Name="logo" Source="Logo.png" BackgroundColor="#ffd275" HorizontalOptions="FillAndExpand" />
-                <Label Text="EV3 Identifier" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="#ffd275"/>
-                <BoxView Color="#ffd275" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+            <StackLayout Spacing="0">
+                <BoxView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+                <Image x:Name="logo" Source="Logo.png" HorizontalOptions="FillAndExpand" />
+                <Frame CornerRadius="15" Padding="10,5" BackgroundColor="#40FFFFFF" Margin="5,5,5,5" HasShadow="False" HorizontalOptions="Center">
+                    <Label Text="EV3 Identifier" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Transparent"/>
+                </Frame>
+                <BoxView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
                 <Button x:Name="enterButton" Text="Enter" HorizontalOptions="Center" BackgroundColor="#db5a42" WidthRequest="200" HeightRequest="50"/>
-                <BoxView Color="#ffd275" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+                <BoxView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
                 <ad:AdviewController HeightRequest="50" WidthRequest="320"></ad:AdviewController>
                 <StackLayout.GestureRecognizers>
                     <SwipeGestureRecognizer Direction="Up" Swiped="OnSwiped"/>

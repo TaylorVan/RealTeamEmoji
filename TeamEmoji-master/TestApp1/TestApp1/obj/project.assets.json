@@ -783,23 +783,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\scott\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Roy\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\scott\\OneDrive\\Documents\\EV3 Identifier\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Roy\\Desktop\\college\\Level6\\DnT\\RealEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj",
       "projectName": "TestApp1",
-      "projectPath": "C:\\Users\\scott\\OneDrive\\Documents\\EV3 Identifier\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj",
-      "packagesPath": "C:\\Users\\scott\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\scott\\OneDrive\\Documents\\EV3 Identifier\\TeamEmoji-master\\TestApp1\\TestApp1\\obj\\",
+      "projectPath": "C:\\Users\\Roy\\Desktop\\college\\Level6\\DnT\\RealEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj",
+      "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Roy\\Desktop\\college\\Level6\\DnT\\RealEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Roy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
