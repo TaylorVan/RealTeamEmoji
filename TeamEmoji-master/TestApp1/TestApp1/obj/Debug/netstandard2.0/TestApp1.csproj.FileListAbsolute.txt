@@ -50,3 +50,19 @@ C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\Test
 C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.dll
 C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\ref\TestApp1.dll
 C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.pdb
+C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1\bin\Debug\netstandard2.0\TestApp1.deps.json
+C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1\bin\Debug\netstandard2.0\TestApp1.dll
+C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1\bin\Debug\netstandard2.0\ref\TestApp1.dll
+C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1\bin\Debug\netstandard2.0\TestApp1.pdb
+C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\Views\MainMenu.xaml.g.cs
+C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\Views\ResultsPage.xaml.g.cs
+C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\Views\TopThree.xaml.g.cs
+C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.AssemblyInfoInputs.cache
+C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.AssemblyInfo.cs
+C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.dll
+C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\ref\TestApp1.dll
+C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.pdb
+C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.csprojAssemblyReference.cache
