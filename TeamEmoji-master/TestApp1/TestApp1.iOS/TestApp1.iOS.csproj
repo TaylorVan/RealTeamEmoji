@@ -195,6 +195,11 @@
     <BundleResource Include="Resources\_99380.jpg" />
     <BundleResource Include="Resources\_99455.jpg" />
     <BundleResource Include="Resources\_99773.jpg" />
+    <Content Include="Resources\LegoBackground.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
