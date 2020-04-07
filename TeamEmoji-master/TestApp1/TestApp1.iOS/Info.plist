@@ -33,7 +33,7 @@
 	<key>CFBundleName</key>
 	<string>EV3 Identifier</string>
 	<key>XSAppIconAssets</key>
-	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<string>Assets.xcassets/App Logo.appiconset</string>
 	<key>NSCameraUsageDescription</key>
 	<string>This app needs access to the camera to take photos.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
