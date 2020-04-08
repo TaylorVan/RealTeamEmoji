@@ -5743,70 +5743,82 @@ namespace TestApp1.Droid
 			public const int design_snackbar_background = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int ic_mtrl_chip_checked_black = 2131165411;
+			public const int EnterButton = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int ic_mtrl_chip_checked_circle = 2131165412;
+			public const int ic_mtrl_chip_checked_black = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int ic_mtrl_chip_close_circle = 2131165413;
+			public const int ic_mtrl_chip_checked_circle = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int LegoBackground = 2131165414;
+			public const int ic_mtrl_chip_close_circle = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int Logo = 2131165415;
+			public const int LegoBackground = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int mtrl_snackbar_background = 2131165416;
+			public const int Logo = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int mtrl_tabs_default_indicator = 2131165417;
+			public const int mtrl_snackbar_background = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int navigation_empty_icon = 2131165418;
+			public const int mtrl_tabs_default_indicator = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int notification_action_background = 2131165419;
+			public const int navigation_empty_icon = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int notification_bg = 2131165420;
+			public const int notification_action_background = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int notification_bg_low = 2131165421;
+			public const int notification_bg = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int notification_bg_low_normal = 2131165422;
+			public const int notification_bg_low = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int notification_bg_low_pressed = 2131165423;
+			public const int notification_bg_low_normal = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int notification_bg_normal = 2131165424;
+			public const int notification_bg_low_pressed = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int notification_bg_normal_pressed = 2131165425;
+			public const int notification_bg_normal = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int notification_icon_background = 2131165426;
+			public const int notification_bg_normal_pressed = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int notification_template_icon_bg = 2131165427;
+			public const int notification_icon_background = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int notification_template_icon_low_bg = 2131165428;
+			public const int notification_template_icon_bg = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int notification_tile_bg = 2131165429;
+			public const int notification_template_icon_low_bg = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int notify_panel_notification_icon_bg = 2131165430;
+			public const int notification_tile_bg = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int tooltip_frame_dark = 2131165431;
+			public const int notify_panel_notification_icon_bg = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int tooltip_frame_light = 2131165432;
+			public const int PickPhotoButton = 2131165432;
+			
+			// aapt resource value: 0x7F0700F9
+			public const int ReturnButton = 2131165433;
+			
+			// aapt resource value: 0x7F0700FA
+			public const int TakePhotoButton = 2131165434;
+			
+			// aapt resource value: 0x7F0700FB
+			public const int tooltip_frame_dark = 2131165435;
+			
+			// aapt resource value: 0x7F0700FC
+			public const int tooltip_frame_light = 2131165436;
 			
 			// aapt resource value: 0x7F070006
 			public const int _10928 = 2131165190;

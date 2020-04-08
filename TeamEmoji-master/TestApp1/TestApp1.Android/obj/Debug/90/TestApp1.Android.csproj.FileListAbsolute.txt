@@ -1206,3 +1206,7 @@ C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\Test
 C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\res\drawable-xxhdpi\legobackground.png
+C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\res\drawable\enterbutton.png
+C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\res\drawable\pickphotobutton.png
+C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\res\drawable\returnbutton.png
+C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\TestApp1.Android\obj\Debug\90\res\drawable\takephotobutton.png
