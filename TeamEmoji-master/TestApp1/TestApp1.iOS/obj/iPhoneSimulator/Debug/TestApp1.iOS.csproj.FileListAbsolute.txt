@@ -249,3 +249,4 @@ C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestA
 C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\TestApp1.iOS.csproj.CopyComplete
 C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\TestApp1.iOS.exe
 C:\Users\scott\OneDrive\Documents\EV3 Identifier\TeamEmoji-master\TestApp1\TestApp1.iOS\obj\iPhoneSimulator\Debug\TestApp1.iOS.pdb
+C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\TestApp1.iOS\bin\iPhoneSimulator\Debug\Resources\LegoBackground.png
