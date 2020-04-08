@@ -1519,24 +1519,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Roy\\.nuget\\packages\\": {},
+    "C:\\Users\\scott\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roy\\Desktop\\college\\Level6\\DnT\\RealEmoji\\TeamEmoji-master\\TestApp1\\TestApp1.iOS\\TestApp1.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\scott\\OneDrive\\Documents\\EV3 Identifier\\TeamEmoji-master\\TestApp1\\TestApp1.iOS\\TestApp1.iOS.csproj",
       "projectName": "TestApp1.iOS",
-      "projectPath": "C:\\Users\\Roy\\Desktop\\college\\Level6\\DnT\\RealEmoji\\TeamEmoji-master\\TestApp1\\TestApp1.iOS\\TestApp1.iOS.csproj",
-      "packagesPath": "C:\\Users\\Roy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roy\\Desktop\\college\\Level6\\DnT\\RealEmoji\\TeamEmoji-master\\TestApp1\\TestApp1.iOS\\obj\\",
+      "projectPath": "C:\\Users\\scott\\OneDrive\\Documents\\EV3 Identifier\\TeamEmoji-master\\TestApp1\\TestApp1.iOS\\TestApp1.iOS.csproj",
+      "packagesPath": "C:\\Users\\scott\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\scott\\OneDrive\\Documents\\EV3 Identifier\\TeamEmoji-master\\TestApp1\\TestApp1.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Roy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1550,8 +1550,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Roy\\Desktop\\college\\Level6\\DnT\\RealEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj": {
-              "projectPath": "C:\\Users\\Roy\\Desktop\\college\\Level6\\DnT\\RealEmoji\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj"
+            "C:\\Users\\scott\\OneDrive\\Documents\\EV3 Identifier\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj": {
+              "projectPath": "C:\\Users\\scott\\OneDrive\\Documents\\EV3 Identifier\\TeamEmoji-master\\TestApp1\\TestApp1\\TestApp1.csproj"
             }
           }
         }

@@ -17,15 +17,22 @@
     </ContentPage.Resources>
 
     <ScrollView>
-        <StackLayout Spacing="30">
+        <StackLayout Spacing="50">
             <BoxView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+<<<<<<< HEAD
             <ImageButton x:Name="takePhoto" Source="TakePhotoButton" Margin="10" Clicked="TakePhoto_Clicked" IsVisible="{Binding IsLoading, Converter={StaticResource inverter}}" BackgroundColor="Transparent"/>
             <ImageButton x:Name="pickPhoto" Source="PickPhotoButton" Margin="10" Clicked="PickPhoto_Clicked" IsVisible="{Binding IsLoading, Converter={StaticResource inverter}}" BackgroundColor="Transparent"/>
             <Button Text="EV3 4 Brainy Kids 2 - A guidebook for EV3 Robotics" BackgroundColor="#db5a42" TextColor="White" x:Name="bookButton" Clicked="BookButton_Clicked" IsVisible="{Binding IsLoading, Converter={StaticResource inverter}}" />
             <ImageButton Clicked="ReturnClicked" Source="ReturnButton" Margin="20" HorizontalOptions="End" BackgroundColor="Transparent" IsVisible="{Binding IsLoading, Converter={StaticResource inverter}}" />
+=======
+            <Button x:Name="takePhoto" Text="Take Photo" Margin="10" TextColor="White" Clicked="TakePhoto_Clicked" IsVisible="{Binding IsLoading, Converter={StaticResource inverter}}" BackgroundColor="#db5a42"/>
+            <Button x:Name="pickPhoto" Text="Choose from Gallery" TextColor="White" Margin="10" Clicked="PickPhoto_Clicked" IsVisible="{Binding IsLoading, Converter={StaticResource inverter}}" BackgroundColor="#db5a42"/>
+            <Button Text="EV3 4 Brainy Kids 2 - A guidebook for EV3 Robotics" BackgroundColor="#db5a42" TextColor="White" Margin="10" x:Name="bookButton" Clicked="BookButton_Clicked" IsVisible="{Binding IsLoading, Converter={StaticResource inverter}}" />
+            <Button Text="Return" Clicked="ReturnClicked" Margin="20" HorizontalOptions="End" BackgroundColor="#db5a42" IsVisible="{Binding IsLoading, Converter={StaticResource inverter}}"  />
+>>>>>>> master
             <Label Text="LOADING..." HorizontalOptions="Center" IsVisible="{Binding IsLoading}"/>
-            <ActivityIndicator IsRunning="{Binding IsLoading}" />
-            <BoxView Color="#e8ae68" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+            <ActivityIndicator x:Name="indicator"  IsRunning="{Binding IsLoading}" />
+            
 
         </StackLayout>
     </ScrollView>
