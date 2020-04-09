@@ -65,3 +65,4 @@ C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\Test
 C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.dll
 C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\ref\TestApp1.dll
 C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.pdb
+C:\Users\Roy\Desktop\college\Level6\DnT\RealEmoji\TeamEmoji-master\TestApp1\TestApp1\obj\Debug\netstandard2.0\TestApp1.csprojAssemblyReference.cache

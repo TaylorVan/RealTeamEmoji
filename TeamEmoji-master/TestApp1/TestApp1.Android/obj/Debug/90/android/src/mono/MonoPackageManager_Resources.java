@@ -46,6 +46,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.SlidingPaneLayout.dll",
 		"Xamarin.Android.Support.SwipeRefreshLayout.dll",
 		"Xamarin.Android.Support.Transition.dll",
+		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Android.Support.v7.AppCompat.dll",
 		"Xamarin.Android.Support.v7.CardView.dll",
 		"Xamarin.Android.Support.v7.RecyclerView.dll",
@@ -62,6 +63,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.GooglePlayServices.Ads.Identifier.dll",
 		"Xamarin.GooglePlayServices.Ads.Lite.dll",
 		"Xamarin.GooglePlayServices.Basement.dll",
+		"Xamarin.GooglePlayServices.Gass.dll",
 		"Xamarin.GooglePlayServices.Measurement.Base.dll",
 		"Xamarin.GooglePlayServices.Measurement.Sdk.Api.dll",
 	};

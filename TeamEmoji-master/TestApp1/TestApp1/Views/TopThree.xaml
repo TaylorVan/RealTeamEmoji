@@ -34,7 +34,7 @@
                 </StackLayout>
             </ScrollView>
             <StackLayout>
-                <Button Text="Return" Clicked="OnButtonClicked" Margin="0,3,3,5" HorizontalOptions="End" BackgroundColor="#db5a42"/>
+                <ImageButton Clicked="OnButtonClicked" Source="ReturnButton" Margin="0,3,3,5" HorizontalOptions="End" BackgroundColor="Transparent"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
