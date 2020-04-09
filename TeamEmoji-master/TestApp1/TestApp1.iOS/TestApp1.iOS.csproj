@@ -195,11 +195,15 @@
     <BundleResource Include="Resources\_99380.jpg" />
     <BundleResource Include="Resources\_99455.jpg" />
     <BundleResource Include="Resources\_99773.jpg" />
+    <BundleResource Include="Resources\EnterButton.png" />
     <Content Include="Resources\LegoBackground.png">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <BundleResource Include="Resources\PickPhotoButton.png" />
+    <BundleResource Include="Resources\ReturnButton.png" />
+    <BundleResource Include="Resources\TakePhotoButton.png" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
