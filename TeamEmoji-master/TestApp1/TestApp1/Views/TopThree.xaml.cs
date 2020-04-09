@@ -18,6 +18,9 @@ namespace TestApp1.Views
             imageOne.Source = "_" + App.ResultsViewModel.PiecesGuessed.ElementAt(0).PartNum + ".jpg";
             imageTwo.Source = "_" + App.ResultsViewModel.PiecesGuessed.ElementAt(1).PartNum + ".jpg";
             imageThree.Source = "_" + App.ResultsViewModel.PiecesGuessed.ElementAt(2).PartNum + ".jpg";
+            LabelOne.Text = App.ResultsViewModel.PiecesGuessed.ElementAt(0).PartName;
+            LabelTwo.Text = App.ResultsViewModel.PiecesGuessed.ElementAt(1).PartName;
+            LabelThree.Text = App.ResultsViewModel.PiecesGuessed.ElementAt(2).PartName;
 
             imageOne.IsVisible = true;
             imageTwo.IsVisible = true;

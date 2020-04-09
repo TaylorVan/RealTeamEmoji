@@ -5,23 +5,37 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="TestApp1.Views.TopThree"
+             NavigationPage.HasNavigationBar="false"
              BackgroundImageSource="LegoBackground.png">
-    <ContentPage.Content>
-        <ScrollView VerticalScrollBarVisibility="Always">
-            <StackLayout Spacing="-60" Margin="3">
-                <Label Text="I've identified 3 possible pieces. Select a piece for more information" VerticalOptions="Center"/>
-                <Frame OutlineColor="Black" x:Name="imageOneFrame" HorizontalOptions="Center" VerticalOptions="Center" Padding="0" Scale="0.5">
-                    <ImageButton x:Name="imageOne" HorizontalOptions="Center"  Clicked="OnImageOneClicked" Source="_10928.jpg"/>
-                </Frame>
-                <Frame OutlineColor="Black" x:Name="imageTwoFrame" HorizontalOptions="Center" VerticalOptions="Center" Padding="0" Scale="0.5">
-                    <ImageButton x:Name="imageTwo" HorizontalOptions="Center"  Clicked="OnImageTwoClicked" Source="_10928.jpg"/>
-                </Frame>
-                <Frame OutlineColor="Black" x:Name="imageThreeFrame" HorizontalOptions="Center" VerticalOptions="Center" Padding="0" Scale="0.5">
-                    <ImageButton x:Name="imageThree" HorizontalOptions="Center"  Clicked="OnImageThreeClicked" Source="_10928.jpg"/>
-                </Frame>
-                <ImageButton Clicked="OnButtonClicked" Source="ReturnButton" Margin="1" HorizontalOptions="End" BackgroundColor="Transparent"/>
-            </StackLayout>
-        </ScrollView>
 
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+            <ScrollView VerticalScrollBarVisibility="Always">
+                <StackLayout Spacing="-150" Margin="3">
+                    <Label Text="I've identified 3 possible pieces. Select a piece for more information" VerticalOptions="Center" Margin="30,20,30,80"/>
+                    <Frame OutlineColor="Black" x:Name="imageOneFrame" HorizontalOptions="Center" VerticalOptions="Center" Padding="20"  Scale="0.5" BackgroundColor="#ffffff">
+                        <StackLayout BackgroundColor="#ffffff" Margin="0" Spacing="5">
+                            <ImageButton x:Name="imageOne" HorizontalOptions="FillAndExpand"  Clicked="OnImageOneClicked" Source="_10928.jpg" BackgroundColor="#ffffff"/>
+                            <Label x:Name="LabelOne" Text="" VerticalOptions="Center" FontSize="20"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame OutlineColor="Black" x:Name="imageTwoFrame" HorizontalOptions="Center" VerticalOptions="Center" Padding="20" Scale="0.5" BackgroundColor="#ffffff">
+                        <StackLayout BackgroundColor="#ffffff" Margin="0" Spacing="5">
+                            <ImageButton x:Name="imageTwo" HorizontalOptions="FillAndExpand"  Clicked="OnImageTwoClicked" Source="_10928.jpg" BackgroundColor="#ffffff"/>
+                            <Label x:Name="LabelTwo" Text="" VerticalOptions="Center" FontSize="20"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame OutlineColor="Black" x:Name="imageThreeFrame" HorizontalOptions="Center" VerticalOptions="Center" Padding="20" Scale="0.5" BackgroundColor="#ffffff">
+                        <StackLayout BackgroundColor="#ffffff" Margin="0" Spacing="5">
+                            <ImageButton x:Name="imageThree" HorizontalOptions="FillAndExpand"  Clicked="OnImageThreeClicked" Source="_10928.jpg" BackgroundColor="#ffffff"/>
+                            <Label x:Name="LabelThree" Text="" VerticalOptions="Center" FontSize="20"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
+            <StackLayout>
+                <Button Text="Return" Clicked="OnButtonClicked" Margin="0,3,3,5" HorizontalOptions="End" BackgroundColor="#db5a42"/>
+            </StackLayout>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
